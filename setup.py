@@ -1,21 +1,21 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = 'bibserver',
-    version = '0.5.1',
+    name = 'mypapers',
+    version = '0.0.1',
     packages = find_packages(),
     install_requires = [
-        "Flask==0.8",
+        "Flask==0.10",
         "Flask-Login",
         "Flask-WTF",
-        "pyes==0.16",
+        "pyes==0.20",
         "chardet",
         "requests",
     ],
-    url = 'http://bibserver.okfn.org/',
-    author = 'Open Knowledge Foundation',
-    author_email = 'openbiblio@okfn.org',
-    description = 'BibServer is a RESTful bibliographic data server.',
+    url = 'http://mypapers.allkos.info/',
+    author = 'Jason Zou',
+    author_email = 'jason.zou@gmail.com',
+    description = 'MyPapers is a personal papers management system.',
     license = 'AGPL',
     classifiers = [
         'Development Status :: 3 - Alpha',
