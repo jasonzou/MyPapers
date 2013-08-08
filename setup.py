@@ -5,10 +5,10 @@ setup(
     version = '0.0.1',
     packages = find_packages(),
     install_requires = [
-        "Flask==0.08",
+        "Flask==0.10",
         "Flask-Login",
         "Flask-WTF",
-        "pyes==0.20",
+        "pyes==0.16",
         "chardet",
         "requests",
     ],

@@ -6,6 +6,7 @@ import httplib
 import urllib
 from datetime import datetime
 import hashlib
+import logging
 
 import pyes
 from werkzeug import generate_password_hash, check_password_hash
@@ -14,6 +15,7 @@ from flask.ext.login import UserMixin
 from bibserver.config import config
 import bibserver.util, bibserver.auth
 
+log = logging.getLogger(__name__)
 
 def make_id(data):
     '''Create a new id for data object based on a hash of the data representation

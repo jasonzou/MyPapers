@@ -97,7 +97,7 @@ class Search(object):
                 self.search_options['search_url'] = '/query/collection?'
                 self.search_options['facets'] = [{'field':'owner','size':100},{'field':'_created','size':100}]
                 self.search_options['result_display'] = [[{'pre':'<h3>','field':'label','post':'</h3>'}],[{'field':'description'}],[{'pre':'created by ','field':'owner'}]]
-                self.search_options['result_display'] = config['colls_result_display']
+                self.search_options['result_display'] = config['collections_result_display']
                 return render_template('collection/index.html', current_user=self.current_user, search_options=json.dumps(self.search_options), collection=None)
         elif len(self.parts) == 2:
             if self.parts[0] == "collections":
