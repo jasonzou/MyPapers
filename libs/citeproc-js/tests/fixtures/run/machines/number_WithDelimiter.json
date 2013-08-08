@@ -1,0 +1,28 @@
+{
+    "abbreviations": false, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": false, 
+    "citations": false, 
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout delimiter=\"; \">\n      <group delimiter=\", \">\n        <group delimiter=\"/\">\n          <number variable=\"volume\"/>\n          <group>\n          <number variable=\"issue\"/>\n          </group>\n        </group>\n        <group>\n          <number variable=\"volume\"/>\n          <number variable=\"issue\"/>\n        </group>\n      </group>\n    </layout>\n  </citation>\n</style>", 
+    "input": [
+        {
+            "id": "ITEM-1", 
+            "issue": "4", 
+            "type": "book", 
+            "volume": "32"
+        }, 
+        {
+            "id": "ITEM-2", 
+            "issue": "5", 
+            "type": "book", 
+            "volume": "43"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "citation", 
+    "multiaffix": false, 
+    "options": false, 
+    "result": "32/4, 324; 43/5, 435"
+}

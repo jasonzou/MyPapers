@@ -1,0 +1,26 @@
+{
+    "abbreviations": false, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": false, 
+    "citations": false, 
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout delimiter=\"; \">\n      <group delimiter=\" \">\n        <choose>\n          <if page=\"page\" match=\"none\">\n            <label form=\"symbol\" variable=\"page\"/>\n          </if>\n        </choose>\n        <number label-form=\"symbol\" variable=\"page\"/>\n      </group>\n    </layout>\n  </citation>\n</style>", 
+    "input": [
+        {
+            "id": "ITEM-1", 
+            "page": "para. 22-25", 
+            "type": "legal_case"
+        }, 
+        {
+            "id": "ITEM-2", 
+            "page": "47-52", 
+            "type": "legal_case"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "citation", 
+    "multiaffix": false, 
+    "options": false, 
+    "result": "¶¶ 22–25; 47–52"
+}

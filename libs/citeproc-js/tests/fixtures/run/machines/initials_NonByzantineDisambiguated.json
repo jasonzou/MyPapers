@@ -1,0 +1,86 @@
+{
+    "abbreviations": false, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": false, 
+    "citations": false, 
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation\n    disambiguate-add-givenname=\"true\">\n    <layout delimiter=\"。\" suffix=\"。\">\n      <names variable=\"author\">\n        <name form=\"short\" initialize-with=\"【%s】\"/>\n      </names>\n    </layout>\n  </citation>\n</style>", 
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "我妻", 
+                    "given": "栄"
+                }
+            ], 
+            "id": "ITEM-1", 
+            "type": "book"
+        }, 
+        {
+            "author": [
+                {
+                    "family": "山田", 
+                    "given": "一郎"
+                }
+            ], 
+            "id": "ITEM-2", 
+            "type": "book"
+        }, 
+        {
+            "author": [
+                {
+                    "family": "山田", 
+                    "given": "二郎"
+                }
+            ], 
+            "id": "ITEM-3", 
+            "type": "book"
+        }, 
+        {
+            "author": [
+                {
+                    "family": "山田", 
+                    "given": "三郎"
+                }
+            ], 
+            "id": "ITEM-4", 
+            "type": "book"
+        }, 
+        {
+            "author": [
+                {
+                    "family": "山田", 
+                    "given": "三朗"
+                }
+            ], 
+            "id": "ITEM-5", 
+            "type": "book"
+        }, 
+        {
+            "author": [
+                {
+                    "family": "山田", 
+                    "given": "John"
+                }
+            ], 
+            "id": "ITEM-6", 
+            "type": "book"
+        }, 
+        {
+            "author": [
+                {
+                    "family": "山田", 
+                    "given": "Jake"
+                }
+            ], 
+            "id": "ITEM-7", 
+            "type": "book"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "citation", 
+    "multiaffix": false, 
+    "options": false, 
+    "result": "我妻。山田【一】。山田【二】。山田三郎。山田三朗。山田 John。山田 Jake。"
+}

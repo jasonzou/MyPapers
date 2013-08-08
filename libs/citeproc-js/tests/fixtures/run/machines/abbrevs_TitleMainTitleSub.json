@@ -1,0 +1,130 @@
+{
+    "abbreviations": false, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": false, 
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1", 
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    }
+                ], 
+                "properties": {
+                    "noteIndex": 1
+                }
+            }, 
+            [], 
+            []
+        ], 
+        [
+            {
+                "citationID": "CITATION-2", 
+                "citationItems": [
+                    {
+                        "id": "ITEM-2"
+                    }
+                ], 
+                "properties": {
+                    "noteIndex": 2
+                }
+            }, 
+            [
+                [
+                    "CITATION-1", 
+                    1
+                ]
+            ], 
+            []
+        ], 
+        [
+            {
+                "citationID": "CITATION-3", 
+                "citationItems": [
+                    {
+                        "id": "ITEM-3"
+                    }
+                ], 
+                "properties": {
+                    "noteIndex": 3
+                }
+            }, 
+            [
+                [
+                    "CITATION-1", 
+                    1
+                ], 
+                [
+                    "CITATION-2", 
+                    2
+                ]
+            ], 
+            []
+        ], 
+        [
+            {
+                "citationID": "CITATION-4", 
+                "citationItems": [
+                    {
+                        "id": "ITEM-4"
+                    }
+                ], 
+                "properties": {
+                    "noteIndex": 4
+                }
+            }, 
+            [
+                [
+                    "CITATION-1", 
+                    1
+                ], 
+                [
+                    "CITATION-2", 
+                    2
+                ], 
+                [
+                    "CITATION-3", 
+                    3
+                ]
+            ], 
+            []
+        ]
+    ], 
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.1mlz1\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <text value=\"title=\"/>\n      <text variable=\"title\" prefix=\"&quot;\" suffix=\"&quot;\"/>\n      <text value=\"; shortTitle=\"/>\n      <text variable=\"title\" form=\"short\" prefix=\"&quot;\" suffix=\"&quot;\"/>\n      <text value=\"; title-main=\"/>\n      <text variable=\"title-main\" prefix=\"&quot;\" suffix=\"&quot;\"/>\n      <text value=\"; title-sub=\"/>\n      <text variable=\"title-sub\" prefix=\"&quot;\" suffix=\"&quot;\"/>\n    </layout>\n  </citation>\n</style>", 
+    "input": [
+        {
+            "id": "ITEM-1", 
+            "shortTitle": "Main title (1)", 
+            "title": "Main title (1): Subtitle", 
+            "type": "book"
+        }, 
+        {
+            "id": "ITEM-2", 
+            "shortTitle": "Main title (2)", 
+            "title": "Main title (2) : Subtitle", 
+            "type": "book"
+        }, 
+        {
+            "id": "ITEM-3", 
+            "shortTitle": "Main title (3)", 
+            "title": "Main title (3) -- Subtitle", 
+            "type": "book"
+        }, 
+        {
+            "id": "ITEM-4", 
+            "shortTitle": "Main title (4)", 
+            "title": "Main title (X): Subtitle", 
+            "type": "book"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "citation", 
+    "multiaffix": false, 
+    "options": {
+        "main_title_from_short_title": true
+    }, 
+    "result": "..[0] title=\"Main title (1): Subtitle\"; shortTitle=\"Main title (1)\"; title-main=\"Main title (1)\"; title-sub=\"Subtitle\"\n..[1] title=\"Main title (2) : Subtitle\"; shortTitle=\"Main title (2)\"; title-main=\"Main title (2)\"; title-sub=\"Subtitle\"\n..[2] title=\"Main title (3) -- Subtitle\"; shortTitle=\"Main title (3)\"; title-main=\"Main title (3) -- Subtitle\"; title-sub=\n>>[3] title=\"Main title (X): Subtitle\"; shortTitle=\"Main title (4)\"; title-main=\"Main title (X): Subtitle\"; title-sub="
+}

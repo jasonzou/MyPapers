@@ -1,0 +1,46 @@
+{
+    "abbreviations": false, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": false, 
+    "citations": false, 
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <names variable=\"author\">\n        <name/>\n      </names>\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n      <names variable=\"author\">\n        <name and=\"symbol\" />\n\t\t<institution suppress-min=\"0\"/>\n      </names>\n    </layout>\n  </bibliography>\n</style>", 
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Doe", 
+                    "given": "John"
+                }, 
+                {
+                    "family": "Roe", 
+                    "given": "Jane"
+                }, 
+                {
+                    "family": "Doe & Co.", 
+                    "isInstitution": true
+                }, 
+                {
+                    "family": "Noakes", 
+                    "given": "John"
+                }, 
+                {
+                    "family": "Noakes Corp.", 
+                    "isInstitution": true
+                }, 
+                {
+                    "family": "Gummidge", 
+                    "given": "Wurzle"
+                }
+            ], 
+            "id": "ITEM-1", 
+            "type": "book"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "bibliography", 
+    "multiaffix": false, 
+    "options": false, 
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Wurzle Gummidge, John Doe, Jane Roe, &#38; John Noakes</div>\n</div>"
+}
