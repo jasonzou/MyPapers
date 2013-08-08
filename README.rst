@@ -57,7 +57,7 @@ To run the tests:
 Copyright and License
 =====================
 
-Copyright 2011-2012 Open Knowledge Foundation.
+Copyright?
 
 Licensed under the `GNU Affero GPL v3`_
 
