@@ -1,0 +1,29 @@
+{
+    "abbreviations": false, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-7", 
+                "locator": "parental suffix-delimiter"
+            }
+        ]
+    ], 
+    "citations": false, 
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"parental-suffix-delimiter\">\n    <group delimiter=\" \">\n      <group>\n        <text variable=\"title\" suffix=\". \"/>\n      </group>\n      <text variable=\"note\"/>\n    </group>\n  </macro>\n  <citation>\n    <layout delimiter=\"&#x0A;\">\n      <choose>\n        <if type=\"chapter\">\n          <text macro=\"parental-suffix-delimiter\"/>\n        </if>\n      </choose>\n      <text value=\". [\"/>\n      <text variable=\"locator\"/>\n      <text value=\"]\"/>\n    </layout>\n  </citation>\n</style>", 
+    "input": [
+        {
+            "id": "ITEM-7", 
+            "note": "Two", 
+            "title": "One", 
+            "type": "chapter"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "citation", 
+    "multiaffix": false, 
+    "options": false, 
+    "result": "One. Two. [parental suffix–delimiter]"
+}

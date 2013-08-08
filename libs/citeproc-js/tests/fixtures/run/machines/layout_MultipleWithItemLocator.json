@@ -1,0 +1,38 @@
+{
+    "abbreviations": false, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": false, 
+    "citations": false, 
+    "csl": "<style\n     xmlns=\"http://purl.org/net/xbiblio/csl\"\n     class=\"in-text\"\n     version=\"1.1mlz1\">\n <info>\n   <id>http://pzotero.com/tt2</id>\n   <title>second style for test</title>\n   <updated>2009-08-10T04:49:00+09:00</updated>\n </info>\n <citation>\n   <layout locale=\"en\">\n               <text variable=\"title\"/>\n   </layout>\n   <layout locale=\"de\">\n               <text variable=\"title\"/>\n   </layout>\n   <layout>\n     <number variable=\"number-of-volumes\"/>\n   </layout>\n </citation>\n <bibliography>\n   <layout>\n     <number variable=\"number-of-volumes\"/>\n   </layout>\n </bibliography>\n</style>", 
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Durant", 
+                    "given": "Will"
+                }
+            ], 
+            "id": "ID-1", 
+            "issued": {
+                "date-parts": [
+                    [
+                        "1935"
+                    ]
+                ]
+            }, 
+            "language": "en", 
+            "number-of-volumes": "11", 
+            "place": "New York", 
+            "publisher": "Simon and Schuster", 
+            "title": "The Story of Civilization", 
+            "type": "book"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "bibliography", 
+    "multiaffix": false, 
+    "options": false, 
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">11</div>\n</div>"
+}

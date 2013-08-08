@@ -1,0 +1,28 @@
+{
+    "abbreviations": {
+        "default": {
+            "institution-part": {
+                "Waffle": "!here>>>"
+            }
+        }
+    }, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": false, 
+    "citations": false, 
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\"\n      default-locale=\"en-US-x-translit-ja-alalc97-x-translat-en\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <names variable=\"authority\">\n        <name/>\n        <institution institution-parts=\"short\"/>\n      </names>\n      <text variable=\"genre\"/>\n    </layout>\n  </citation>\n</style>", 
+    "input": [
+        {
+            "authority": "Waffle", 
+            "genre": "Wow", 
+            "id": "ITEM-1", 
+            "type": "book"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "citation", 
+    "multiaffix": false, 
+    "options": false, 
+    "result": "Wow"
+}

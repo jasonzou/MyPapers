@@ -1,0 +1,29 @@
+{
+    "abbreviations": false, 
+    "bibentries": false, 
+    "bibsection": false, 
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-6", 
+                "locator": "parental prefix-prefix"
+            }
+        ]
+    ], 
+    "citations": false, 
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"parental-prefix-prefix\">\n    <text variable=\"title\"/>\n    <group prefix=\". \">\n      <group>\n        <text variable=\"note\" prefix=\" \"/>\n      </group>\n    </group>\n  </macro>\n  <citation>\n    <layout delimiter=\"&#x0A;\">\n      <choose>\n        <if type=\"book\">\n          <text macro=\"parental-prefix-prefix\"/>\n        </if>\n     </choose>\n      <text value=\". [\"/>\n      <text variable=\"locator\"/>\n      <text value=\"]\"/>\n    </layout>\n  </citation>\n</style>", 
+    "input": [
+        {
+            "id": "ITEM-6", 
+            "note": "Two", 
+            "title": "One", 
+            "type": "book"
+        }
+    ], 
+    "input2": false, 
+    "langparams": false, 
+    "mode": "citation", 
+    "multiaffix": false, 
+    "options": false, 
+    "result": "One. Two. [parental prefix–prefix]"
+}
