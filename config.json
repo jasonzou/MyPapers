@@ -45,6 +45,18 @@
             "display":"type"
         },
         {
+            "field":"keyword.exact",
+            "display":"keyword"
+        },
+        {
+            "field":"rating.exact",
+            "display":"rating"
+        },
+        {
+            "field":"read.exact",
+            "display":"read"
+        },
+        {
             "field":"journal.name.exact",
             "display":"journal"
         },
@@ -151,7 +163,7 @@
     ],
     
     # default view for collections page
-    "colls_result_display" : [
+    "collections_result_display" : [
         [
             {
                 "pre":"<h3><a href=\"/",
