@@ -1,3 +1,6 @@
+Notice: This project is still under heavy construction. 
+==========
+
 MyPapers is an open-source personal paper management system. It makes 
 easy to create and manage collections of papers including  bibliographic 
 information, some personal information, and fulltext of the papers. MyPapers
