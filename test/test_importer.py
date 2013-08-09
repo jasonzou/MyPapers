@@ -1,4 +1,4 @@
-from base import *
+from test.base import *
 
 from bibserver.importer import Importer
 import bibserver.dao

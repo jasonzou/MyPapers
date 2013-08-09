@@ -1,4 +1,5 @@
 # this is the data access layer
+import pyes
 import json
 import uuid
 import UserDict
@@ -8,7 +9,7 @@ from datetime import datetime
 import hashlib
 import logging
 
-import pyes
+
 from werkzeug import generate_password_hash, check_password_hash
 from flask.ext.login import UserMixin
 

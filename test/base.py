@@ -1,7 +1,7 @@
 import os
 import json
 
-from bibserver import dao
+import bibserver.dao as dao
 from bibserver.config import config
 
 TESTDB = 'bibserver-test'
