@@ -8,10 +8,6 @@ import urllib
 from datetime import datetime
 import hashlib
 import logging
-<<<<<<< HEAD
-=======
-
->>>>>>> 630dee1ba62fdcfa903b2e8d4facda233efa37e1
 
 from werkzeug import generate_password_hash, check_password_hash
 from flask.ext.login import UserMixin
