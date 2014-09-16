@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-BibServer is an open-source RESTful bibliographic data server. BibServer makes
-it easy to create and manage collections of bibliographic records such as
-reading lists, publication lists and even complete library catalogs.
-=======
-=======
-Notice: This project is still under heavy construction. 
-==========
 
->>>>>>> 630dee1ba62fdcfa903b2e8d4facda233efa37e1
+========================================================
+Notice: This project is still under heavy construction. 
+========================================================
+
 MyPapers is an open-source personal paper management system. It makes 
 easy to create and manage collections of papers including  bibliographic 
 information, some personal information, and fulltext of the papers. MyPapers
 is based on BibServer (http://bibserver.okfn.org).
-<<<<<<< HEAD
->>>>>>> Update readme.rst
-=======
->>>>>>> 630dee1ba62fdcfa903b2e8d4facda233efa37e1
 
 Main features:
 
@@ -33,23 +23,11 @@ Main features:
 Quick Links
 ===========
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-* Code: http://github.com/okfn/bibserver
-* Documentation: http://bibserver.readthedocs.org/
-* Mailing list: http://lists.okfn.org/mailman/listinfo/openbiblio-dev
-* Live demo: http://bibsoup.net/
-=======
-=======
->>>>>>> 630dee1ba62fdcfa903b2e8d4facda233efa37e1
 * Website: http://
 * Code: http://github.com/jasonzou/MyPapers
 * Documentation: http://mypapers.readthedocs.org/
 
-<<<<<<< HEAD
->>>>>>> Update readme.rst
-=======
->>>>>>> 630dee1ba62fdcfa903b2e8d4facda233efa37e1
+
 
 
 Installation
