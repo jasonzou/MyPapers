@@ -1,7 +1,8 @@
 from nose.tools import assert_equal
 import urllib
-from base import *
-from bibserver import web, ingest
+from test.base import *
+import bibserver.web
+import bibserver.ingest
 import os
 
 

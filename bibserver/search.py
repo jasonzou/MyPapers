@@ -21,6 +21,8 @@ class Search(object):
             'predefined_filters': {},
             'facets': config['search_facet_fields'],
             'result_display': config['search_result_display'],
+            'search_sortby': [{'display':'year', 'field':'year.exact'},{'display':'author','field':'author.name'},{'display':'journal','field':'journal.name'}],
+            'searchbox_fieldselect': [{'display':'author','field':'author.name'},{'display':'journal','field':'journal.name'}],
             'addremovefacets': config['add_remove_facets']      # (full list could also be pulled from DAO)
         }
 
