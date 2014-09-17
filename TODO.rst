@@ -6,4 +6,7 @@ TO-DO list
 2. delete unrelated functionalities
 3. recommendation
 4. update jQuery, FacetView?
+5. bibtexparser
+6. pdf.js
+7. pdf2text
 
