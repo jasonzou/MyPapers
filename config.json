@@ -1,7 +1,7 @@
 {
     # service and super user accounts
     "service_name" : "BibSoup",
-    "SITE_URL" : "http://bibsoup.net",
+    "SITE_URL" : "http://localhost",
     "host" : "0.0.0.0",
     "debug" : true,
     "port" : 5000,
