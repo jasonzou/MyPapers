@@ -9,6 +9,17 @@ import json, httplib
 from bibserver.config import config
 import bibserver.util as util
 
+import logging
+from logging.handlers import RotatingFileHandler
+
+LOG_FILENAME="./app.log"
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.DEBUG)
+formatter = logging.Formatter(
+   "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
+handler = RotatingFileHandler(LOG_FILENAME, maxBytes=10000000, backupCount=5)
+handler.setFormatter(formatter)
+log.addHandler(handler)
 
 class Search(object):
 
@@ -21,22 +32,25 @@ class Search(object):
             'search_url': '/query?',
             'search_index': 'elasticsearch',
             'paging': { 'from': 0, 'size': 10 },
-            'predefined_filters': {},
-            'facets': config['search_facet_fields'],
+            #'predefined_filters': {},
+            #'facets': config['search_facet_fields'],
             'result_display': config['search_result_display'],
             'search_sortby': [{'display':'year', 'field':'year.exact'},
                 {'display':'author','field':'author.name'},
                 {'display':'journal','field':'journal.name'}],
             'searchbox_fieldselect': [
                 {'display':'author','field':'author.name'},
-                {'display':'journal','field':'journal.name'}],
-            'addremovefacets': config['add_remove_facets']      # (full list could also be pulled from DAO)
+                {'display':'journal','field':'journal.name'}]#,
+            #'addremovefacets': config['add_remove_facets']      # (full list could also be pulled from DAO)
         }
 
         self.parts = self.path.strip('/').split('/')
 
 
     def find(self):
+        log.debug(self.parts[0])
+        log.debug(self.parts)
+        log.debug(len(self.parts))
         if bibserver.dao.Account.get(self.parts[0]):
             if len(self.parts) == 1:
                 return self.account() # user account
@@ -62,7 +76,9 @@ class Search(object):
         # default search page
         if util.request_wants_json():
             res = bibserver.dao.Record.query()
-            resp = make_response( json.dumps([i['_source'] for i in res._hits], sort_keys=True, indent=4) )
+            resp = make_response(
+                json.dumps([i['_source'] for i in res._hits],
+                            sort_keys=True, indent=4) )
             resp.mimetype = "application/json"
             return resp
         else:
@@ -350,7 +366,7 @@ class Search(object):
                 if metadata and '_display_settings' in metadata:
                     self.search_options.update(metadata['_display_settings'])
                 users = bibserver.dao.Account.query(size=1000000) # pass the userlist for autocomplete admin addition (could be ajax'd)
-                userlist = [i['_source']['_id'] for i in users._hits]
+                userlist = [i['_source']['_id'] for i in users['hits']['hits']]
                 return render_template('search/index.html', 
                     current_user=self.current_user, 
                     search_options=json.dumps(self.search_options), 
