@@ -298,9 +298,6 @@ def default(path):
 
 
 if __name__ == "__main__":
-
-
-    
     if config["allow_upload"]:
         bibserver.ingest.init()
         if not os.path.exists('ingest.pid'):

@@ -58,21 +58,7 @@
                 <input class="search-query" type="text" name="q" placeholder="search everything" />
               </form>
             </li>
-            {% if current_user.is_anonymous() %}
-            <li>
-              <a href="{{url_for('account.register')}}">Register</a>
-            </li>
-            <li>
-              <a href="{{url_for('account.login')}}">Login</a>
-            </li>
-            {% else %}
-            <li>
-              <a alt="view your account" title="view your account" href="/{{current_user.id}}"><strong><input type="hidden" id="current_user" value="{{current_user.id}}" />{{current_user.id}}</strong></a>
-            </li>
-            <li>
-              <a href="{{ url_for('account.logout') }}">Logout</a>
-            </li>
-            {% endif %}
+            
           </ul>
         </div>
       </div>
@@ -101,8 +87,8 @@
     <footer>
       <div class="row">
         <div class="span7">
-            <p><a href="/faq">FAQ</a> / <a href="https://github.com/jasonzou/Go Canada!/issues">Feedback</a><br />
-            Powered by open source <a href="https://github.com/jasonzou/Go Canada!">Go Canada!</a> 0.0.1 based on <a href="https://github.com/okfn/bibserver">BibServer</a> v0.5.1<br />
+            <p><a href="/faq">FAQ</a> / <a href="https://github.com/jasonzou/MyPapers/issues">Feedback</a><br />
+            Powered by open source <a href="https://github.com/jasonzou/MyPapers">MyPapers</a> 0.0.1 based on <a href="https://github.com/okfn/bibserver">BibServer</a> v0.5.1<br />
         </div>
         <div class="span1">
           &nbsp;

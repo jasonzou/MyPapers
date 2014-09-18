@@ -1,6 +1,6 @@
 {
     # service and super user accounts
-    "service_name" : "BibSoup",
+    "service_name" : "MyPapers",
     "SITE_URL" : "http://localhost",
     "host" : "0.0.0.0",
     "debug" : true,

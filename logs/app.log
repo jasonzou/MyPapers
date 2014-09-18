@@ -1,0 +1,866 @@
+[2014-09-18 11:30:59,778] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:5000/
+[2014-09-18 11:30:59,778] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 11:31:11,072] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:31:11] "GET / HTTP/1.1" 500 -
+[2014-09-18 11:31:11,124] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:31:11] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 11:31:11,126] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:31:11] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 11:31:11,127] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:31:11] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 11:31:11,160] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:31:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:31:11,216] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:31:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:31:11,221] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:31:11] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2014-09-18 11:31:11,222] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:31:11] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 11:32:49,742] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/newWeb.py', reloading
+[2014-09-18 11:32:49,763] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 11:32:54,564] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:5000/
+[2014-09-18 11:32:54,564] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 11:33:09,028] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:33:09] "GET / HTTP/1.1" 500 -
+[2014-09-18 11:33:09,076] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:33:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 11:33:09,077] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:33:09] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 11:33:09,078] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:33:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 11:33:09,079] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:33:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:33:09,147] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:33:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:33:09,179] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:33:09] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 11:41:12,242] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:5000/
+[2014-09-18 11:41:12,243] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 11:41:18,214] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:18] "GET / HTTP/1.1" 500 -
+[2014-09-18 11:41:18,260] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:18] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 11:41:18,262] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:18] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 11:41:18,263] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:18] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 11:41:18,281] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:41:18,337] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:41:18,367] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:18] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 11:41:20,673] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:20] "GET / HTTP/1.1" 500 -
+[2014-09-18 11:41:20,707] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:20] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 11:41:20,710] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:20] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 11:41:20,711] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:20] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 11:41:20,733] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:41:20,786] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:41:20,789] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:41:20] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 11:43:55,561] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/newWeb.py', reloading
+[2014-09-18 11:43:55,582] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 11:44:01,770] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:5000/
+[2014-09-18 11:44:01,770] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 11:44:13,646] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:44:13] "GET / HTTP/1.1" 500 -
+[2014-09-18 11:44:13,693] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:44:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 11:44:13,694] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:44:13] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 11:44:13,695] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:44:13] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 11:44:13,713] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:44:13] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:44:13,762] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:44:13] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:44:13,790] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:44:13] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 11:45:33,625] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/newWeb.py', reloading
+[2014-09-18 11:45:33,648] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 11:45:33,819] {bibserver/newWeb.py:69} DEBUG - Start....
+[2014-09-18 11:45:55,512] {bibserver/newWeb.py:69} DEBUG - Start....
+[2014-09-18 11:45:55,637] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:5000/
+[2014-09-18 11:45:55,637] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 11:45:55,780] {bibserver/newWeb.py:69} DEBUG - Start....
+[2014-09-18 11:46:08,548] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 11:46:08,612] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 11:46:08,612] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 11:46:08,613] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 11:46:08,677] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET / HTTP/1.1" 500 -
+[2014-09-18 11:46:08,776] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 11:46:08,778] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 11:46:08,779] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 11:46:08,779] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:46:08,855] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2014-09-18 11:46:08,856] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:46:08,857] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 11:46:08,889] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:46:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:49:11,123] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 11:49:11,134] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 11:49:11,134] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 11:49:11,134] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 11:49:11,163] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:11] "GET / HTTP/1.1" 500 -
+[2014-09-18 11:49:11,175] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:11] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 11:49:11,176] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:11] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 11:49:11,177] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:11] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 11:49:11,234] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:49:11,290] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:49:11,291] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:11] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 11:49:34,086] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 11:49:34,096] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 11:49:34,096] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 11:49:34,096] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 11:49:34,106] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET / HTTP/1.1" 200 -
+[2014-09-18 11:49:34,123] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,126] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[2014-09-18 11:49:34,130] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,132] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/css/bibserver.css HTTP/1.1" 200 -
+[2014-09-18 11:49:34,135] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/js/bibserver.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,138] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,140] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 200 -
+[2014-09-18 11:49:34,143] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,146] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,148] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 200 -
+[2014-09-18 11:49:34,151] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 200 -
+[2014-09-18 11:49:34,153] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,156] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 200 -
+[2014-09-18 11:49:34,158] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,160] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 200 -
+[2014-09-18 11:49:34,163] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 200 -
+[2014-09-18 11:49:34,165] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/openservice.png HTTP/1.1" 200 -
+[2014-09-18 11:49:34,167] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 11:49:34] "GET /static/opendata.png HTTP/1.1" 200 -
+[2014-09-18 12:01:01,163] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:01] "GET / HTTP/1.1" 500 -
+[2014-09-18 12:01:01,196] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 12:01:01,197] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:01] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 12:01:01,198] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 12:01:01,255] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:01:01,288] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:01:01,289] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:01] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 12:01:19,468] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:19] "GET / HTTP/1.1" 500 -
+[2014-09-18 12:01:19,507] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:19] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 12:01:19,511] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:19] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 12:01:19,512] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:19] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 12:01:19,534] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:19] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:01:19,585] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:19] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:01:19,588] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:19] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 12:01:41,035] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:01:41,045] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:01:41,045] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:01:41,045] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:01:41,047] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:41] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:01:54,756] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:01:54,766] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:01:54,766] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:01:54,766] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:01:54,768] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:01:54,789] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,792] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:01:54,795] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,798] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:01:54,800] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,803] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,806] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:01:54,809] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,811] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,814] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:01:54,816] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:01:54,819] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,821] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:01:54,824] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,826] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:01:54,829] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:01:54,902] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:01:54,926] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:54] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:01:56,300] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:01:56,311] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:01:56,311] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:01:56,311] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:01:56,313] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:01:56,333] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,336] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:01:56,339] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,342] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:01:56,345] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,348] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,351] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:01:56,354] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,356] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,359] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:01:56,362] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:01:56,365] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,368] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:01:56,371] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,373] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:01:56,376] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:01:56,421] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:01:56,447] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:01:56] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:02:08,002] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:08] "GET / HTTP/1.1" 500 -
+[2014-09-18 12:02:08,026] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:08] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 12:02:08,030] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:08] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 12:02:08,037] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:08] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 12:02:08,062] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:02:08,115] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:02:08,118] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:08] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 12:02:13,388] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:13] "GET / HTTP/1.1" 500 -
+[2014-09-18 12:02:13,415] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:13] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 12:02:13,418] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 12:02:13,419] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:13] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 12:02:13,454] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:13] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:02:13,510] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:13] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:02:13,513] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:13] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 12:02:23,914] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:23] "GET / HTTP/1.1" 500 -
+[2014-09-18 12:02:23,947] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:23] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 12:02:23,953] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 12:02:23,959] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 12:02:23,987] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:02:24,038] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 12:02:24,041] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:24] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 12:02:45,044] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:02:45,055] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:02:45,056] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:02:45,056] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:02:45,057] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:02:45] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:03:14,117] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:03:14,127] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:03:14,127] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:03:14,127] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:03:14,128] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:03:14,152] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,154] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[2014-09-18 12:03:14,157] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,160] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/css/bibserver.css HTTP/1.1" 200 -
+[2014-09-18 12:03:14,163] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/js/bibserver.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,165] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,168] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 200 -
+[2014-09-18 12:03:14,171] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,173] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,176] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 200 -
+[2014-09-18 12:03:14,178] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 200 -
+[2014-09-18 12:03:14,180] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,182] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 200 -
+[2014-09-18 12:03:14,185] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,187] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 200 -
+[2014-09-18 12:03:14,189] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 200 -
+[2014-09-18 12:03:14,192] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/openservice.png HTTP/1.1" 200 -
+[2014-09-18 12:03:14,194] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:03:14] "GET /static/opendata.png HTTP/1.1" 200 -
+[2014-09-18 12:06:09,679] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:06:09] "GET /search HTTP/1.1" 404 -
+[2014-09-18 12:07:46,064] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:07:46,075] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:07:46,075] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:07:46,075] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:07:46,082] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:07:46,194] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,203] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,205] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:07:46,207] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,209] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:07:46,211] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,213] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,215] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:07:46,217] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,219] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,221] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:07:46,223] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:07:46,225] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,226] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:07:46,229] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:07:46,231] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:07:46,601] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:07:46,658] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:07:46] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:08:15,093] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:08:15,107] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:08:15,107] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:08:15,107] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:08:15,115] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:08:15,241] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,244] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:08:15,246] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,248] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:08:15,251] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,253] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,255] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:08:15,257] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,260] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,263] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:08:15,266] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:08:15,268] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,270] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:08:15,271] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,273] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:08:15,275] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:08:15,649] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:08:15,650] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:08:15] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:09:26,926] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:09:26,936] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:09:26,936] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:09:26,936] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:09:26,944] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:26] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:09:27,058] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,060] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:09:27,062] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,064] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:09:27,067] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,069] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,071] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:09:27,073] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,076] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,079] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:09:27,081] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:09:27,083] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,085] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:09:27,087] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,089] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:09:27,091] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:09:27,463] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:09:27,465] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:09:27] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:11:38,376] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:11:38,386] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:11:38,386] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:11:38,386] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:11:38,394] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:11:38,561] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,564] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:11:38,566] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,568] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:11:38,570] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,573] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,575] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:11:38,577] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,580] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,583] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:11:38,585] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:11:38,587] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,589] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:11:38,591] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,593] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:11:38,595] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:11:38,981] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:11:38,983] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:11:38] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:14:10,032] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:14:10,042] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:14:10,043] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:14:10,043] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:14:10,050] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:14:10,204] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,206] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:14:10,208] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,210] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:14:10,213] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,215] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,217] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:14:10,219] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,222] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,225] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:14:10,227] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:14:10,229] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,231] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:14:10,233] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,235] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:14:10,237] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:14:10,625] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:14:10,627] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:10] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:14:54,279] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:14:54,290] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:14:54,290] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:14:54,290] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:14:54,297] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:14:54,416] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,418] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:14:54,420] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,422] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:14:54,424] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,427] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,429] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:14:54,431] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,434] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,437] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:14:54,440] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:14:54,442] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,445] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:14:54,447] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,449] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:14:54,452] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:14:54,831] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:14:54,833] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:14:54] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:15:25,283] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:15:25,293] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:15:25,293] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:15:25,294] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:15:25,301] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:15:25,457] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,459] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:15:25,461] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,464] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:15:25,466] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,468] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,471] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:15:25,472] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,475] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,478] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:15:25,480] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:15:25,482] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,484] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:15:25,486] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,488] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:15:25,490] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:15:25,870] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:15:25,872] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:15:25] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:17:21,339] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:17:21,349] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:17:21,349] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:17:21,349] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:17:21,356] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:17:21,511] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,513] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:17:21,515] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,517] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:17:21,519] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,521] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,524] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:17:21,526] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,528] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,531] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:17:21,533] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:17:21,535] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,537] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:17:21,539] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,541] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:17:21,543] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:17:21,933] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:17:21,935] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:21] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:17:40,166] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:17:40] "GET /search HTTP/1.1" 404 -
+[2014-09-18 12:18:27,059] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:18:27,070] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:18:27,070] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:18:27,070] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:18:27,078] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:18:27,155] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,158] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:18:27,160] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,163] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:18:27,165] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,168] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,171] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:18:27,173] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,176] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,179] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:18:27,182] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:18:27,184] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,186] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:18:27,188] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,190] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:18:27,193] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:18:27,571] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:18:27,573] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:18:27] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:19:46,094] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:19:46,104] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:19:46,104] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:19:46,104] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:19:46,111] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:19:46,355] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,357] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:19:46,359] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,362] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:19:46,364] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,367] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,370] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:19:46,372] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,373] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,376] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:19:46,380] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:19:46,382] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,384] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:19:46,386] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,388] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:19:46,390] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:19:46,781] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:19:46,783] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:19:46] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:20:52,201] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:20:52,212] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:20:52,212] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:20:52,212] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:20:52,220] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:20:52,339] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,341] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:20:52,343] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,346] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:20:52,348] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,350] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,353] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:20:52,355] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,358] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,360] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:20:52,363] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:20:52,365] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,366] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:20:52,368] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,370] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:20:52,372] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:20:52,747] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:20:52,749] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:20:52] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:21:10,817] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:21:10,826] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:21:10,826] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:21:10,826] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:21:10,832] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:10] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:21:11,050] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,053] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:21:11,055] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,057] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:21:11,059] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,063] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,065] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:21:11,067] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,069] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,071] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:21:11,075] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:21:11,077] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,079] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:21:11,081] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,083] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:21:11,085] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:21:11,474] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:21:11,476] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:11] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:21:21,197] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:21:21,207] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:21:21,208] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:21:21,208] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:21:21,215] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:21:21,333] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,335] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:21:21,337] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,339] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:21:21,341] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,343] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,345] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:21:21,347] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,350] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,353] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:21:21,355] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:21:21,357] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,359] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:21:21,361] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,363] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:21:21,365] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:21:21,740] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:21:21,742] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:21] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:21:47,977] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:21:47,988] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:21:47,988] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:21:47,988] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:21:47,996] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:47] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:21:48,117] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,119] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:21:48,121] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,124] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:21:48,126] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,129] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,131] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:21:48,133] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,136] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,138] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:21:48,141] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:21:48,143] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,144] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:21:48,146] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,148] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:21:48,150] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:21:48,529] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:21:48,531] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:21:48] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:22:03,874] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:22:03,885] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:22:03,885] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:22:03,885] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:22:03,892] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:03] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:22:04,010] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,012] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:22:04,014] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,016] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:22:04,018] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,021] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,023] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:22:04,025] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,027] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,030] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:22:04,033] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:22:04,035] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,036] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:22:04,038] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,040] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:22:04,042] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:22:04,417] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:22:04,419] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:04] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:22:31,399] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:22:31,409] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:22:31,409] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:22:31,409] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:22:31,417] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:22:31,537] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,539] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:22:31,541] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,543] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:22:31,545] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,548] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,550] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:22:31,552] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,555] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,558] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:22:31,560] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:22:31,562] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,564] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:22:31,566] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,568] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:22:31,570] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:22:31,940] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:22:31,942] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:22:31] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:23:08,840] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:23:08,848] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:23:08,848] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:23:08,848] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:23:08,854] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:23:08,966] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:08,968] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:23:08,970] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:08,972] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:23:08,974] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:23:08,976] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:08,978] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:23:08,980] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:08,982] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:08,985] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:23:08,987] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:23:08,989] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:23:08,991] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:23:08,993] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:23:08,995] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:23:08,997] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:08] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:23:09,374] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:09] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:23:09,376] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:09] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:23:46,537] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:23:46,549] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:23:46,549] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:23:46,549] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:23:46,557] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:23:46,681] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:46,683] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:23:46,685] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:46,688] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:23:46,690] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:23:46,693] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:46,695] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:23:46,697] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:46,700] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:23:46,704] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:23:46,706] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:23:46,708] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:23:46,710] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:23:46,712] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:23:46,714] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:23:46,716] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:46] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:23:47,090] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:47] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:23:47,092] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:23:47] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:24:27,760] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:24:27,767] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:24:27,767] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:24:27,767] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:24:27,772] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:24:27,872] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:27,874] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:24:27,876] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:27,878] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:24:27,880] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:24:27,883] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:27,885] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:24:27,887] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:27,890] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:27,893] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:24:27,895] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:24:27,897] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:24:27,899] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:24:27,901] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:24:27,903] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:24:27,905] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:27] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:24:28,279] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:28] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:24:28,281] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:28] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:24:53,233] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:24:53,244] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:24:53,244] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:24:53,244] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:24:53,252] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:24:53,365] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,367] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:24:53,369] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,372] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:24:53,374] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,376] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,378] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:24:53,381] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,383] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,386] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:24:53,388] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:24:53,390] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,392] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:24:53,394] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,396] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:24:53,398] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:24:53,772] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:24:53,774] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:53] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:24:54,967] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:24:54,977] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:24:54,977] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:24:54,978] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:24:54,979] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:54] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:24:55,087] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,089] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:24:55,091] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,093] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:24:55,096] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,098] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,100] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:24:55,102] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,104] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,106] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:24:55,108] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:24:55,110] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,112] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:24:55,114] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,116] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:24:55,119] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:24:55,476] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:24:55,478] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:24:55] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:26:46,584] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:26:46,594] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:26:46,594] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:26:46,595] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:26:46,596] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:26:46,762] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:26:46,764] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:26:46,766] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:26:46,768] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:26:46,770] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:26:46,773] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:26:46,775] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:26:46,777] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:26:46,779] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:26:46,782] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:26:46,785] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:26:46,787] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:26:46,789] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:26:46,791] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:26:46,793] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:26:46,795] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:46] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:26:47,179] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:47] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:26:47,181] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:26:47] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:27:30,984] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:27:30,993] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:27:30,993] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:27:30,993] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:27:31,001] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:27:31,124] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,126] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:27:31,128] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,130] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:27:31,132] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,135] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,137] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:27:31,139] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,142] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,144] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:27:31,147] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:27:31,149] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,151] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:27:31,153] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,155] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:27:31,157] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:27:31,530] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:27:31,532] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:31] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:27:47,486] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:27:47,494] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:27:47,494] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:27:47,494] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:27:47,500] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:27:47,741] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:47,744] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:27:47,746] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:47,748] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:27:47,750] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:27:47,754] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:47,756] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:27:47,758] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:47,760] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:27:47,762] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:27:47,766] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:27:47,768] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:27:47,770] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:27:47,772] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:27:47,774] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:27:47,776] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:47] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:27:48,161] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:48] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:27:48,163] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:27:48] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:28:45,693] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:28:45,703] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:28:45,703] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:28:45,703] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:28:45,713] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:28:45,829] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:45,831] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:28:45,833] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:45,836] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:28:45,838] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:28:45,840] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:45,842] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:28:45,844] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:45,846] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:45,848] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:28:45,850] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:28:45,852] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:28:45,854] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:28:45,856] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:28:45,858] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:28:45,860] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:45] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:28:46,213] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:46] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:28:46,215] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:46] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:28:48,038] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:28:48,048] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:28:48,048] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:28:48,049] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:28:48,050] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:28:48,150] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,153] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:28:48,155] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,157] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:28:48,160] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,162] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,164] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:28:48,166] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,168] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,171] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:28:48,173] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:28:48,175] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,177] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:28:48,179] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,181] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:28:48,184] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:28:48,560] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:28:48,562] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:28:48] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:29:04,074] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:29:04,083] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:29:04,083] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:29:04,083] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:29:04,093] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:29:04,198] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,200] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:29:04,202] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,204] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:29:04,206] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,209] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,211] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:29:04,213] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,216] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,219] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:29:04,221] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:29:04,223] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,225] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:29:04,227] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,229] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:29:04,231] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:29:04,594] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:29:04,596] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:04] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:29:14,401] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:14] "GET /faq HTTP/1.1" 404 -
+[2014-09-18 12:29:33,244] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:33] "GET /search?q=fdsasdfa HTTP/1.1" 404 -
+[2014-09-18 12:29:37,984] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:37] "GET /scholar/list/?q=fdssdfasdfa HTTP/1.1" 404 -
+[2014-09-18 12:29:55,538] {bibserver/newWeb.py:41} DEBUG - Hommmme!
+[2014-09-18 12:29:55,548] {bibserver/newWeb.py:61} DEBUG - 0
+[2014-09-18 12:29:55,548] {bibserver/newWeb.py:62} DEBUG - 0
+[2014-09-18 12:29:55,548] {bibserver/newWeb.py:63} DEBUG - 1
+[2014-09-18 12:29:55,556] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET / HTTP/1.1" 200 -
+[2014-09-18 12:29:55,665] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:55,668] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 12:29:55,670] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:55,673] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 12:29:55,675] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 12:29:55,678] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:55,680] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 12:29:55,682] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:55,686] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 12:29:55,689] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:29:55,691] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 12:29:55,693] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 12:29:55,696] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 12:29:55,698] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 12:29:55,700] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 12:29:55,702] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:55] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 12:29:56,102] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:56] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 12:29:56,104] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:56] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 12:29:58,973] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 12:29:58] "GET /search?q=fdssdfasdfa HTTP/1.1" 404 -

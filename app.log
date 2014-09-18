@@ -915,3 +915,55 @@
 [2014-09-18 01:33:22,692] {bibserver/web.py:77} DEBUG - ecord
 [2014-09-18 01:33:22,698] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:33:22] "GET /query?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017902754 HTTP/1.1" 200 -
 [2014-09-18 01:33:22,698] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:33:22] "GET /query?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017902754 HTTP/1.1" 200 -
+[2014-09-18 10:00:36,051] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:5000/
+[2014-09-18 10:00:36,051] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 10:00:56,333] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET / HTTP/1.1" 200 -
+[2014-09-18 10:00:56,379] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,382] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 10:00:56,384] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,386] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 10:00:56,388] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,390] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,392] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 10:00:56,394] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,397] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,399] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 10:00:56,401] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 10:00:56,404] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,406] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 10:00:56,408] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,410] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 10:00:56,412] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 10:00:56,414] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 10:00:56,416] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:56] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 10:00:59,315] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:00:59] "GET /account/login HTTP/1.1" 200 -
+[2014-09-18 10:01:06,914] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:06] "GET /account/register HTTP/1.1" 200 -
+[2014-09-18 10:01:19,582] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "POST /account/register HTTP/1.1" 302 -
+[2014-09-18 10:01:19,593] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 10:01:19,593] {bibserver/web.py:293} DEBUG - jason
+[2014-09-18 10:01:19,593] {bibserver/web.py:294} DEBUG - {'password': 'pbkdf2:sha1:1000$6t6389Q3$bb7c04ad4e6565c205f98ed048b18f6f768411ed', '_id': 'jason', 'description': u'', '_created': '20140918100119', 'api_key': '5546300b-dbb7-4589-a725-a9d24917f8cb', 'email': 'jason.zou@gmail.com', '_last_modified': '20140918100119'}
+[2014-09-18 10:01:19,597] {/home/jason/mypapers/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 10:01:19,597] {/home/jason/mypapers/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 10:01:19,597] {/home/jason/mypapers/MyPapers/bibserver/search.py:52} DEBUG - [u'jason']
+[2014-09-18 10:01:19,597] {/home/jason/mypapers/MyPapers/bibserver/search.py:52} DEBUG - [u'jason']
+[2014-09-18 10:01:19,598] {/home/jason/mypapers/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 10:01:19,598] {/home/jason/mypapers/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 10:01:19,607] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason HTTP/1.1" 500 -
+[2014-09-18 10:01:19,607] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason HTTP/1.1" 500 -
+[2014-09-18 10:01:19,625] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 10:01:19,625] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 10:01:19,625] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 10:01:19,625] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 10:01:19,626] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 10:01:19,626] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 10:01:19,685] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2014-09-18 10:01:19,685] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2014-09-18 10:01:19,706] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 10:01:19,706] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 10:01:19,713] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 10:01:19,713] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 10:01:19,739] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 10:01:19,739] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 10:01:19] "GET /jason?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 11:19:32,601] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/web.py', reloading
+[2014-09-18 11:19:32,601] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/web.py', reloading
+[2014-09-18 11:19:32,625] {/home/jason/mypapers/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
