@@ -94,9 +94,9 @@ def home():
                     })
     except:
         pass
-    colls = bibserver.dao.Collection.query()['hits']['total']
-    records = bibserver.dao.Record.query()['hits']['total']
-    users = bibserver.dao.Account.query()['hits']['total']
+    colls = bibserver.dao.Collection.query().total
+    records = bibserver.dao.Record.query().total
+    users = bibserver.dao.Account.query().total
     print data
     return render_template('home/index.html', colldata=json.dumps(data), colls=colls, records=records, users=users)
 
