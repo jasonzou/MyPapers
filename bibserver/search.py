@@ -1,4 +1,6 @@
-
+"""
+search.py
+"""
 from flask import Flask, request, redirect, abort, make_response
 from flask import render_template, flash
 import bibserver.dao
@@ -7,6 +9,17 @@ import json, httplib
 from bibserver.config import config
 import bibserver.util as util
 
+import logging
+from logging.handlers import RotatingFileHandler
+
+LOG_FILENAME="./app.log"
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.DEBUG)
+formatter = logging.Formatter(
+   "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
+handler = RotatingFileHandler(LOG_FILENAME, maxBytes=10000000, backupCount=5)
+handler.setFormatter(formatter)
+log.addHandler(handler)
 
 class Search(object):
 
@@ -14,22 +27,30 @@ class Search(object):
         self.path = path.replace(".json","")
         self.current_user = current_user
 
+        # facets -> convert to aggs
         self.search_options = {
             'search_url': '/query?',
             'search_index': 'elasticsearch',
             'paging': { 'from': 0, 'size': 10 },
-            'predefined_filters': {},
-            'facets': config['search_facet_fields'],
+            #'predefined_filters': {},
+            #'facets': config['search_facet_fields'],
             'result_display': config['search_result_display'],
-            'search_sortby': [{'display':'year', 'field':'year.exact'},{'display':'author','field':'author.name'},{'display':'journal','field':'journal.name'}],
-            'searchbox_fieldselect': [{'display':'author','field':'author.name'},{'display':'journal','field':'journal.name'}],
-            'addremovefacets': config['add_remove_facets']      # (full list could also be pulled from DAO)
+            'search_sortby': [{'display':'year', 'field':'year.exact'},
+                {'display':'author','field':'author.name'},
+                {'display':'journal','field':'journal.name'}],
+            'searchbox_fieldselect': [
+                {'display':'author','field':'author.name'},
+                {'display':'journal','field':'journal.name'}]#,
+            #'addremovefacets': config['add_remove_facets']      # (full list could also be pulled from DAO)
         }
 
         self.parts = self.path.strip('/').split('/')
 
 
     def find(self):
+        log.debug(self.parts[0])
+        log.debug(self.parts)
+        log.debug(len(self.parts))
         if bibserver.dao.Account.get(self.parts[0]):
             if len(self.parts) == 1:
                 return self.account() # user account
@@ -55,7 +76,9 @@ class Search(object):
         # default search page
         if util.request_wants_json():
             res = bibserver.dao.Record.query()
-            resp = make_response( json.dumps([i['_source'] for i in res['hits']['hits']], sort_keys=True, indent=4) )
+            resp = make_response(
+                json.dumps([i['_source'] for i in res._hits],
+                            sort_keys=True, indent=4) )
             resp.mimetype = "application/json"
             return resp
         else:
@@ -65,7 +88,10 @@ class Search(object):
                 collection=None
             )
         
-
+    
+    
+    
+    # TODO: convert facet => aggs
     def implicit_facet(self):
         self.search_options['predefined_filters'][self.parts[0]+config['facet_field']] = self.parts[1]
         # remove the implicit facet from facets
@@ -74,7 +100,7 @@ class Search(object):
                 del self.search_options['facets'][count]
         if util.request_wants_json():
             res = bibserver.dao.Record.query(terms=self.search_options['predefined_filters'])
-            resp = make_response( json.dumps([i['_source'] for i in res['hits']['hits']], sort_keys=True, indent=4) )
+            resp = make_response( json.dumps([i['_source'] for i in res._hits], sort_keys=True, indent=4) )
             resp.mimetype = "application/json"
             return resp
         else:
@@ -90,7 +116,7 @@ class Search(object):
         if len(self.parts) == 1:
             if util.request_wants_json():
                 res = bibserver.dao.Collection.query(size=1000000)
-                colls = [i['_source'] for i in res['hits']['hits']]
+                colls = [i['_source'] for i in res._hits]
                 resp = make_response( json.dumps(colls, sort_keys=True, indent=4) )
                 resp.mimetype = "application/json"
                 return resp
@@ -132,11 +158,11 @@ class Search(object):
             'collection'+config['facet_field']:self.parts[1],
             'id'+config['facet_field']:self.parts[2]
         })
-        if res['hits']['total'] == 0:
+        if res.total == 0:
             rec = bibserver.dao.Record.get(self.parts[2])
             if rec: found = 1
-        elif res['hits']['total'] == 1:
-            rec = bibserver.dao.Record.get(res['hits']['hits'][0]['_id'])
+        elif res.total == 1:
+            rec = bibserver.dao.Record.get(res._hits[0]['_id'])
             found = 1
         else:
             found = 2
@@ -233,11 +259,11 @@ class Search(object):
                     )
         else:
             if util.request_wants_json():
-                resp = make_response( json.dumps([i['_source'] for i in res['hits']['hits']], sort_keys=True, indent=4) )
+                resp = make_response( json.dumps([i['_source'] for i in res._hits], sort_keys=True, indent=4) )
                 resp.mimetype = "application/json"
                 return resp
             else:
-                return render_template('record.html', multiple=[i['_source'] for i in res['hits']['hits']])
+                return render_template('record.html', multiple=[i['_source'] for i in res._hits])
 
 
     def account(self):
@@ -277,8 +303,8 @@ class Search(object):
                 return resp
             else:
                 admin = True if auth.user.update(self.current_user,acc) else False
-                recordcount = bibserver.dao.Record.query(terms={'owner':acc.id})['hits']['total']
-                collcount = bibserver.dao.Collection.query(terms={'owner':acc.id})['hits']['total']
+                recordcount = bibserver.dao.Record.query(terms={'owner':acc.id}).total
+                collcount = bibserver.dao.Collection.query(terms={'owner':acc.id}).total
                 return render_template('account/view.html', 
                     current_user=self.current_user, 
                     search_options=json.dumps(self.search_options), 
@@ -314,8 +340,8 @@ class Search(object):
                 if not auth.collection.create(self.current_user, None):
                     abort(401)
                 else:
-                    size = bibserver.dao.Record.query(terms={'owner':self.parts[0],'collection':self.parts[1]})['hits']['total']
-                    for rid in bibserver.dao.Record.query(terms={'owner':self.parts[0],'collection':self.parts[1]},size=size)['hits']['hits']:
+                    size = bibserver.dao.Record.query(terms={'owner':self.parts[0],'collection':self.parts[1]}).total
+                    for rid in bibserver.dao.Record.query(terms={'owner':self.parts[0],'collection':self.parts[1]},size=size)._hits:
                         record = bibserver.dao.Record.get(rid['_id'])
                         if record: record.delete()
                     return ''

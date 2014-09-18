@@ -21,8 +21,20 @@ from bibserver.core import app, login_manager
 from bibserver.view.account import blueprint as account
 from bibserver import auth
 
+import logging
+from logging.handlers import RotatingFileHandler
+
+LOG_FILENAME="./app.log"
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.DEBUG)
+formatter = logging.Formatter(
+   "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
+handler = RotatingFileHandler(LOG_FILENAME, maxBytes=10000000, backupCount=5)
+handler.setFormatter(formatter)
+log.addHandler(handler)
 
 app.register_blueprint(account, url_prefix='/account')
+
 
 # NB: the decorator appears to kill the function for normal usage
 @login_manager.user_loader
@@ -60,6 +72,9 @@ def query(path='Record'):
     subpath = pathparts[0]
     if subpath.lower() == 'account':
         abort(401)
+    log.debug(subpath)
+    log.debug(subpath[0])
+    log.debug(subpath[1:])
     klass = getattr(bibserver.dao, subpath[0].capitalize() + subpath[1:] )
     qs = request.query_string
     if request.method == "POST":
@@ -94,9 +109,9 @@ def home():
                     })
     except:
         pass
-    colls = bibserver.dao.Collection.query()['hits']['total']
-    records = bibserver.dao.Record.query()['hits']['total']
-    users = bibserver.dao.Account.query()['hits']['total']
+    colls = bibserver.dao.Collection.query().total
+    records = bibserver.dao.Record.query().total
+    users = bibserver.dao.Account.query().total
     print data
     return render_template('home/index.html', colldata=json.dumps(data), colls=colls, records=records, users=users)
 
@@ -274,12 +289,18 @@ def note(nid=''):
 # and any thing else passed as a search
 @app.route('/<path:path>', methods=['GET','POST','DELETE'])
 def default(path):
+    log.debug("default as search")
+    log.debug(path)
+    log.debug(current_user)
     import bibserver.search
     searcher = bibserver.search.Search(path=path,current_user=current_user)
     return searcher.find()
 
 
 if __name__ == "__main__":
+
+
+    
     if config["allow_upload"]:
         bibserver.ingest.init()
         if not os.path.exists('ingest.pid'):

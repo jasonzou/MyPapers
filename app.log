@@ -1,0 +1,917 @@
+[2014-09-18 00:30:55,185] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:5000/
+[2014-09-18 00:30:55,185] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:32:04,431] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:32:04] "GET / HTTP/1.1" 200 -
+[2014-09-18 00:32:11,258] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:32:11] "GET /search HTTP/1.1" 200 -
+[2014-09-18 00:32:11,423] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:32:11] "GET /query?&callback=jQuery17108163102603883108_1411014731317&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411014731412 HTTP/1.1" 200 -
+[2014-09-18 00:33:15,881] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/web.py', reloading
+[2014-09-18 00:33:15,903] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:34:59,160] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:34:59] "GET /query/Record/51736a96e5b086d94539eb81e3167ce7 HTTP/1.1" 200 -
+[2014-09-18 00:36:21,757] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/web.py', reloading
+[2014-09-18 00:36:21,778] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:36:25,601] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:36:25,607] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:36:25] "GET /query/Record/51736a96e5b086d94539eb81e3167ce7 HTTP/1.1" 200 -
+[2014-09-18 00:37:05,209] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/web.py', reloading
+[2014-09-18 00:37:05,229] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:37:09,057] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:37:09,057] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:37:09,057] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:37:09,063] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:37:09] "GET /query/Record/51736a96e5b086d94539eb81e3167ce7 HTTP/1.1" 200 -
+[2014-09-18 00:39:02,651] {bibserver/web.py:68} DEBUG - record
+[2014-09-18 00:39:02,651] {bibserver/web.py:69} DEBUG - r
+[2014-09-18 00:39:02,651] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:39:02,661] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:39:02] "GET /query/record/51736a96e5b086d94539eb81e3167ce7 HTTP/1.1" 200 -
+[2014-09-18 00:39:58,622] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:39:58] "GET /search/record/51736a96e5b086d94539eb81e3167ce7 HTTP/1.1" 404 -
+[2014-09-18 00:40:13,406] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:40:13] "GET /search/?51736a96e5b086d94539eb81e3167ce7 HTTP/1.1" 200 -
+[2014-09-18 00:40:13,579] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:40:13,579] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:40:13,579] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:40:13,583] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:40:13] "GET /query?&callback=jQuery17104898167296600753_1411015213469&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411015213573 HTTP/1.1" 200 -
+[2014-09-18 00:41:17,750] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:41:17,750] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:41:17,750] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:41:17,757] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:41:17] "GET /query?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 00:43:19,527] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:43:19,527] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:43:19,527] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:43:19,534] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:43:19] "GET /query?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 00:43:49,745] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/web.py', reloading
+[2014-09-18 00:43:49,768] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:43:56,634] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:43:56,634] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:43:56,634] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:43:56,639] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:43:56] "GET /query?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 00:44:07,640] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:44:07,641] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:44:07,674] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:07] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 00:44:07,840] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:44:07,840] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:44:07,840] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:44:07,845] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:07] "GET /query?&callback=jQuery17102823264067328334_1411015447736&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411015447834 HTTP/1.1" 200 -
+[2014-09-18 00:44:38,206] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/web.py', reloading
+[2014-09-18 00:44:38,225] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:44:41,123] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:44:41,123] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:44:41,124] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:44:41,155] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 00:44:41,179] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,186] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 00:44:41,192] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,197] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 00:44:41,205] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,211] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,219] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 00:44:41,224] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,229] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,234] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 00:44:41,239] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 00:44:41,246] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,252] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 00:44:41,258] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,263] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 00:44:41,268] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 00:44:41,351] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 00:44:41,356] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 00:44:41,361] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 00:44:41,394] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:44:41,395] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:44:41,395] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:44:41,401] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /query?&callback=jQuery17104593448409277341_1411015481267&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411015481386 HTTP/1.1" 200 -
+[2014-09-18 00:44:41,409] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:44:41] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 00:49:10,339] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 00:49:10,358] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:49:12,361] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:49:12,362] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:49:12,362] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:49:12,368] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:12] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 00:49:12,457] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:12] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 00:49:12,458] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:12] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 00:49:12,461] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:12] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 00:49:12,543] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:12] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:49:12,569] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:12] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2014-09-18 00:49:12,602] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:12] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 00:49:12,662] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:12] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:49:38,029] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:49:38] "GET /search?__debugger__=yes&cmd=res&frm=46595664&s=k5uJvW0nQDnb6wfpNToo HTTP/1.1" 200 -
+[2014-09-18 00:51:13,513] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:51:13,514] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:51:13,514] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:51:13,521] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:51:13] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 00:51:13,591] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:51:13] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 00:51:13,595] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:51:13] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 00:51:13,597] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:51:13] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 00:51:13,729] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:51:13] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:51:13,745] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:51:13] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 00:51:13,803] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:51:13] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:52:52,353] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:52:52,354] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:52:52,354] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:52:52,360] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:52] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 00:52:52,421] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:52] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 00:52:52,426] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:52] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 00:52:52,427] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:52] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 00:52:52,517] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:52] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:52:52,533] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:52] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 00:52:52,587] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:52] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:52:54,089] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:52:54,089] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:52:54,089] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:52:54,096] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:54] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 00:52:54,148] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:54] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 00:52:54,155] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:54] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 00:52:54,156] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:54] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 00:52:54,209] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:54] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:52:54,255] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:54] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 00:52:54,303] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:52:54] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:53:34,362] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:53:34,362] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:53:34,362] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:53:34,368] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:34] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 00:53:34,428] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:34] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 00:53:34,433] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:34] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 00:53:34,435] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:34] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 00:53:34,525] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:34] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:53:34,543] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:34] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 00:53:34,598] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:34] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:53:57,035] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:53:57,035] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:53:57,035] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:53:57,041] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:57] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 00:53:57,106] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:57] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 00:53:57,109] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:57] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 00:53:57,111] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:57] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 00:53:57,208] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:57] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:53:57,222] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:57] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 00:53:57,277] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:53:57] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:54:20,717] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:54:20] "GET /search?__debugger__=yes&cmd=bibserver.dao.Record.query()&frm=140444170448464&s=k5uJvW0nQDnb6wfpNToo HTTP/1.1" 200 -
+[2014-09-18 00:54:27,952] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:54:27] "GET /search?__debugger__=yes&cmd=res%3Dbibserver.dao.Record.query()&frm=140444170448464&s=k5uJvW0nQDnb6wfpNToo HTTP/1.1" 200 -
+[2014-09-18 00:54:29,463] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:54:29] "GET /search?__debugger__=yes&cmd=res&frm=140444170448464&s=k5uJvW0nQDnb6wfpNToo HTTP/1.1" 200 -
+[2014-09-18 00:54:35,618] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:54:35] "GET /search?__debugger__=yes&cmd=res%5B%27hits%27%5D&frm=140444170448464&s=k5uJvW0nQDnb6wfpNToo HTTP/1.1" 200 -
+[2014-09-18 00:55:00,706] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:55:00] "GET /search?__debugger__=yes&cmd=res._hits&frm=140444170448464&s=k5uJvW0nQDnb6wfpNToo HTTP/1.1" 200 -
+[2014-09-18 00:56:06,622] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:56:06,623] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:56:06,623] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:56:06,636] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:06] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 00:56:06,745] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:06] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 00:56:06,750] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:06] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 00:56:06,751] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:06] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 00:56:06,817] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:06] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:56:06,888] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:06] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 00:56:06,938] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:06] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 00:56:33,979] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 00:56:34,004] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:56:35,538] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:56:35,538] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:56:35,538] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:56:35,574] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 00:56:35,645] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,651] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 00:56:35,658] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,664] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 00:56:35,671] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,677] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,683] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 00:56:35,688] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,695] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,701] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 00:56:35,706] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 00:56:35,712] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,718] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 00:56:35,724] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,732] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 00:56:35,737] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 00:56:35,960] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 00:56:35,966] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 00:56:35,973] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:35] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 00:56:36,018] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:56:36,018] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:56:36,018] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:56:36,025] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:36] "GET /query?&callback=jQuery17105507462854785639_1411016195805&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016196007 HTTP/1.1" 200 -
+[2014-09-18 00:56:36,036] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:56:36] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 00:57:55,584] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 00:57:55,602] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 00:57:58,243] {bibserver/web.py:285} DEBUG - default as search
+[2014-09-18 00:57:58,244] {bibserver/web.py:286} DEBUG - search
+[2014-09-18 00:57:58,244] {bibserver/web.py:287} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 00:57:58,280] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 00:57:58,367] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,374] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 00:57:58,381] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,388] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 00:57:58,393] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,398] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,403] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 00:57:58,408] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,414] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,428] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 00:57:58,434] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 00:57:58,440] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,446] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 00:57:58,452] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,457] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 00:57:58,463] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 00:57:58,683] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 00:57:58,689] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 00:57:58,694] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 00:57:58,743] {bibserver/web.py:68} DEBUG - Record
+[2014-09-18 00:57:58,743] {bibserver/web.py:69} DEBUG - R
+[2014-09-18 00:57:58,743] {bibserver/web.py:70} DEBUG - ecord
+[2014-09-18 00:57:58,746] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /query?&callback=jQuery17107467924824257123_1411016278518&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016278730 HTTP/1.1" 200 -
+[2014-09-18 00:57:58,757] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 00:57:58] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:00:28,358] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in 'bibserver/web.py', reloading
+[2014-09-18 01:00:28,377] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 01:00:31,429] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:00:31,429] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:00:31,429] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:00:31,464] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 01:00:31,578] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,585] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:00:31,593] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,597] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:00:31,602] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,611] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,617] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:00:31,628] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,634] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,639] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:00:31,645] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:00:31,650] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,656] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:00:31,660] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,666] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:00:31,674] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:00:31,935] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:00:31,941] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:00:31,948] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:00:31,995] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:00:31,995] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:00:31,995] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:00:31,999] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:31] "GET /query?&callback=jQuery17108286422987147241_1411016431780&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016431984 HTTP/1.1" 200 -
+[2014-09-18 01:00:32,012] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:00:32] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:01:17,815] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:01:17,841] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 01:01:20,868] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:01:20,869] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:01:20,869] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:01:20,874] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:01:20,874] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:01:20,906] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:20] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 01:01:20,906] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:20] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 01:01:20,992] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:20] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:20,992] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:20] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,007] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,007] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,016] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,016] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,024] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,024] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,035] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,035] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,045] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,045] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,053] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,053] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,062] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,062] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,072] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,072] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,081] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:01:21,081] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:01:21,088] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:01:21,088] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:01:21,098] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,098] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,104] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,104] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,109] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,109] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,114] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,114] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:01:21,120] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,120] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:01:21,311] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:01:21,311] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:01:21,317] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:01:21,317] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:01:21,323] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:01:21,323] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:01:21,365] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:01:21,365] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:01:21,366] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:01:21,366] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:01:21,366] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:01:21,366] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:01:21,369] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /query?&callback=jQuery171008777482837005646_1411016481101&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016481355 HTTP/1.1" 200 -
+[2014-09-18 01:01:21,369] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /query?&callback=jQuery171008777482837005646_1411016481101&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016481355 HTTP/1.1" 200 -
+[2014-09-18 01:01:21,384] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:01:21,384] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:21] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:01:52,222] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:01:52,222] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:01:52,248] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 01:01:55,284] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:01:55,284] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:01:55,284] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:01:55,289] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:01:55,289] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:01:55,290] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:01:55,290] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:01:55,322] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 01:01:55,322] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 01:01:55,411] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,411] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,418] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,418] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,428] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,428] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,434] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,434] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,439] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,439] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,446] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,446] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,452] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,452] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,459] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,459] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,464] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,464] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,470] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:01:55,470] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:01:55,477] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:01:55,477] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:01:55,482] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,482] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,487] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,487] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,492] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,492] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,498] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,498] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:01:55,503] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,503] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:01:55,749] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:01:55,749] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:01:55,757] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:01:55,757] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:01:55,769] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:01:55,769] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:01:55,805] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:01:55,805] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:01:55,805] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:01:55,805] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:01:55,805] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:01:55,805] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:01:55,810] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /query?&callback=jQuery17101399192479795136_1411016515569&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016515794 HTTP/1.1" 200 -
+[2014-09-18 01:01:55,810] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /query?&callback=jQuery17101399192479795136_1411016515569&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016515794 HTTP/1.1" 200 -
+[2014-09-18 01:01:55,824] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:01:55,824] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:01:55] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:02:43,121] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:02:43,121] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:02:43,121] {bibserver/web.py:293} DEBUG - sea
+[2014-09-18 01:02:43,121] {bibserver/web.py:293} DEBUG - sea
+[2014-09-18 01:02:43,121] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:02:43,121] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:02:43,122] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - sea
+[2014-09-18 01:02:43,122] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - sea
+[2014-09-18 01:02:43,122] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'sea']
+[2014-09-18 01:02:43,122] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'sea']
+[2014-09-18 01:02:43,125] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:02:43] "GET /sea?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 01:02:43,125] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:02:43] "GET /sea?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 200 -
+[2014-09-18 01:02:43,485] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:02:43,485] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:02:43,485] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:02:43,485] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:02:43,485] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:02:43,485] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:02:43,488] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:02:43] "GET /query?&callback=jQuery17108674852105839007_1411016563286&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22sea%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016563475 HTTP/1.1" 200 -
+[2014-09-18 01:02:43,488] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:02:43] "GET /query?&callback=jQuery17108674852105839007_1411016563286&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22sea%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016563475 HTTP/1.1" 200 -
+[2014-09-18 01:03:46,930] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:03:46,930] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:03:46,949] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 01:03:48,758] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:03:48,758] {bibserver/web.py:293} DEBUG - sea
+[2014-09-18 01:03:48,758] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:03:48,765] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - sea
+[2014-09-18 01:03:48,765] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - sea
+[2014-09-18 01:03:48,765] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'sea']
+[2014-09-18 01:03:48,765] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'sea']
+[2014-09-18 01:03:48,765] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:03:48,765] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:03:48,799] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /sea?source={%22query%22:{%22query_string%22:{%22query%22:%22sea%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:03:48,799] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /sea?source={%22query%22:{%22query_string%22:{%22query%22:%22sea%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:03:48,879] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,879] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,885] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,885] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,890] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,890] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,900] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,900] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,914] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,914] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,920] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,920] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,933] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,933] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,944] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,944] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,951] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,951] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,958] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:03:48,958] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:03:48,965] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:03:48,965] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:03:48,970] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,970] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,979] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,979] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,986] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,986] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:03:48,995] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:03:48,995] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:48] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:03:49,002] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:03:49,002] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:03:49,198] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:03:49,198] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:03:49,205] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:03:49,205] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:03:49,210] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:03:49,210] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:03:49,250] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:03:49,250] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:03:49,251] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:03:49,251] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:03:49,251] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:03:49,251] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:03:49,257] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /query?&callback=jQuery17106997885546923099_1411016629001&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22sea%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016629240 HTTP/1.1" 200 -
+[2014-09-18 01:03:49,257] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /query?&callback=jQuery17106997885546923099_1411016629001&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22sea%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016629240 HTTP/1.1" 200 -
+[2014-09-18 01:03:49,269] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:03:49,269] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:03:49] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:05:53,484] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:05:53,484] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:05:53,484] {bibserver/web.py:293} DEBUG - jason
+[2014-09-18 01:05:53,484] {bibserver/web.py:293} DEBUG - jason
+[2014-09-18 01:05:53,485] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:05:53,485] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:05:53,485] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:05:53,485] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:05:53,485] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason']
+[2014-09-18 01:05:53,485] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason']
+[2014-09-18 01:05:53,485] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:05:53,485] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:05:53,537] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:05:53] "GET /jason?source={%22query%22:{%22query_string%22:{%22query%22:%22sea%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:05:53,537] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:05:53] "GET /jason?source={%22query%22:{%22query_string%22:{%22query%22:%22sea%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:05:53,965] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:05:53,965] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:05:53,965] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:05:53,965] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:05:53,965] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:05:53,965] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:05:53,969] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:05:53] "GET /query?&callback=jQuery17107839173683572441_1411016753755&source=%7B%22query%22%3A%7B%22bool%22%3A%7B%22must%22%3A%5B%22jason%22%2C%7B%22query_string%22%3A%7B%22query%22%3A%22sea%22%2C%22default_operator%22%3A%22OR%22%7D%7D%5D%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016753955 HTTP/1.1" 200 -
+[2014-09-18 01:05:53,969] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:05:53] "GET /query?&callback=jQuery17107839173683572441_1411016753755&source=%7B%22query%22%3A%7B%22bool%22%3A%7B%22must%22%3A%5B%22jason%22%2C%7B%22query_string%22%3A%7B%22query%22%3A%22sea%22%2C%22default_operator%22%3A%22OR%22%7D%7D%5D%7D%7D%2C%22facets%22%3A%7B%22collection.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22collection.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A200%7D%7D%2C%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016753955 HTTP/1.1" 200 -
+[2014-09-18 01:05:53,987] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:05:53,987] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:05:53,987] {bibserver/web.py:293} DEBUG - {query:{bool:{must:[jason,{query_string:{query:sea,default_operator:OR}}]}}}
+[2014-09-18 01:05:53,987] {bibserver/web.py:293} DEBUG - {query:{bool:{must:[jason,{query_string:{query:sea,default_operator:OR}}]}}}
+[2014-09-18 01:05:53,987] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:05:53,987] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:05:53,987] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - {query:{bool:{must:[jason,{query_string:{query:sea,default_operator:OR}}]}}}
+[2014-09-18 01:05:53,987] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - {query:{bool:{must:[jason,{query_string:{query:sea,default_operator:OR}}]}}}
+[2014-09-18 01:05:53,987] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'{query:{bool:{must:[jason,{query_string:{query:sea,default_operator:OR}}]}}}']
+[2014-09-18 01:05:53,987] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'{query:{bool:{must:[jason,{query_string:{query:sea,default_operator:OR}}]}}}']
+[2014-09-18 01:05:53,987] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:05:53,987] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:05:53,992] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:05:53] "GET /%7Bquery:%7Bbool:%7Bmust:%5Bjason,%7Bquery_string:%7Bquery:sea,default_operator:OR%7D%7D%5D%7D%7D%7D HTTP/1.1" 200 -
+[2014-09-18 01:05:53,992] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:05:53] "GET /%7Bquery:%7Bbool:%7Bmust:%5Bjason,%7Bquery_string:%7Bquery:sea,default_operator:OR%7D%7D%5D%7D%7D%7D HTTP/1.1" 200 -
+[2014-09-18 01:06:53,637] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:06:53,637] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:06:53,637] {bibserver/web.py:293} DEBUG - jason/eventOntology/search
+[2014-09-18 01:06:53,637] {bibserver/web.py:293} DEBUG - jason/eventOntology/search
+[2014-09-18 01:06:53,637] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:06:53,637] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:06:53,637] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:06:53,637] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:06:53,637] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'eventOntology', u'search']
+[2014-09-18 01:06:53,637] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'eventOntology', u'search']
+[2014-09-18 01:06:53,637] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 3
+[2014-09-18 01:06:53,637] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 3
+[2014-09-18 01:06:53,655] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:06:53] "GET /jason/eventOntology/search?source={%22query%22:{%22bool%22:{%22must%22:[%22jason%22,{%22query_string%22:{%22query%22:%22sea%22,%22default_operator%22:%22OR%22}}]}}} HTTP/1.1" 404 -
+[2014-09-18 01:06:53,655] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:06:53] "GET /jason/eventOntology/search?source={%22query%22:{%22bool%22:{%22must%22:[%22jason%22,{%22query_string%22:{%22query%22:%22sea%22,%22default_operator%22:%22OR%22}}]}}} HTTP/1.1" 404 -
+[2014-09-18 01:07:37,943] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:07:37] "GET / HTTP/1.1" 200 -
+[2014-09-18 01:07:37,943] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:07:37] "GET / HTTP/1.1" 200 -
+[2014-09-18 01:07:50,043] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:07:50,043] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:07:50,043] {bibserver/web.py:293} DEBUG - collections
+[2014-09-18 01:07:50,043] {bibserver/web.py:293} DEBUG - collections
+[2014-09-18 01:07:50,043] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:07:50,043] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:07:50,043] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - collections
+[2014-09-18 01:07:50,043] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - collections
+[2014-09-18 01:07:50,044] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'collections']
+[2014-09-18 01:07:50,044] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'collections']
+[2014-09-18 01:07:50,044] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:07:50,044] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:07:50,048] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:07:50] "GET /collections HTTP/1.1" 200 -
+[2014-09-18 01:07:50,048] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:07:50] "GET /collections HTTP/1.1" 200 -
+[2014-09-18 01:07:50,510] {bibserver/web.py:75} DEBUG - collection
+[2014-09-18 01:07:50,510] {bibserver/web.py:75} DEBUG - collection
+[2014-09-18 01:07:50,510] {bibserver/web.py:76} DEBUG - c
+[2014-09-18 01:07:50,510] {bibserver/web.py:76} DEBUG - c
+[2014-09-18 01:07:50,511] {bibserver/web.py:77} DEBUG - ollection
+[2014-09-18 01:07:50,511] {bibserver/web.py:77} DEBUG - ollection
+[2014-09-18 01:07:50,514] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:07:50] "GET /query/collection?&callback=jQuery17107991149157996345_1411016870314&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22owner%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22owner%22%2C%22size%22%3A100%7D%7D%2C%22_created%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22_created%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016870500 HTTP/1.1" 200 -
+[2014-09-18 01:07:50,514] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:07:50] "GET /query/collection?&callback=jQuery17107991149157996345_1411016870314&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22owner%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22owner%22%2C%22size%22%3A100%7D%7D%2C%22_created%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22_created%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411016870500 HTTP/1.1" 200 -
+[2014-09-18 01:08:27,831] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:08:27,831] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:08:27,831] {bibserver/web.py:293} DEBUG - jason/eventontology/search
+[2014-09-18 01:08:27,831] {bibserver/web.py:293} DEBUG - jason/eventontology/search
+[2014-09-18 01:08:27,832] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:08:27,832] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:08:27,832] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:08:27,832] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:08:27,832] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'eventontology', u'search']
+[2014-09-18 01:08:27,832] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'eventontology', u'search']
+[2014-09-18 01:08:27,832] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 3
+[2014-09-18 01:08:27,832] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 3
+[2014-09-18 01:08:27,840] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:08:27] "GET /jason/eventontology/search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 404 -
+[2014-09-18 01:08:27,840] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:08:27] "GET /jason/eventontology/search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 404 -
+[2014-09-18 01:08:55,247] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:08:55,247] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:08:55,247] {bibserver/web.py:293} DEBUG - jason/eventOntology/search
+[2014-09-18 01:08:55,247] {bibserver/web.py:293} DEBUG - jason/eventOntology/search
+[2014-09-18 01:08:55,247] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:08:55,247] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:08:55,248] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:08:55,248] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:08:55,248] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'eventOntology', u'search']
+[2014-09-18 01:08:55,248] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'eventOntology', u'search']
+[2014-09-18 01:08:55,248] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 3
+[2014-09-18 01:08:55,248] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 3
+[2014-09-18 01:08:55,255] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:08:55] "GET /jason/eventOntology/search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 404 -
+[2014-09-18 01:08:55,255] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:08:55] "GET /jason/eventOntology/search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 404 -
+[2014-09-18 01:09:02,880] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:09:02,880] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:09:02,880] {bibserver/web.py:293} DEBUG - jason/search
+[2014-09-18 01:09:02,880] {bibserver/web.py:293} DEBUG - jason/search
+[2014-09-18 01:09:02,880] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:09:02,880] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:09:02,880] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:09:02,880] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:09:02,880] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'search']
+[2014-09-18 01:09:02,880] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'search']
+[2014-09-18 01:09:02,880] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 2
+[2014-09-18 01:09:02,880] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 2
+[2014-09-18 01:09:02,896] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:02] "GET /jason/search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 01:09:02,896] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:02] "GET /jason/search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 01:09:02,957] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:02] "GET /jason/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 01:09:02,957] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:02] "GET /jason/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 01:09:02,959] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:02] "GET /jason/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 01:09:02,959] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:02] "GET /jason/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 01:09:02,961] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:02] "GET /jason/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 01:09:02,961] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:02] "GET /jason/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 01:09:03,022] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:03] "GET /jason/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 01:09:03,022] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:03] "GET /jason/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 01:09:03,042] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:03] "GET /jason/search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2014-09-18 01:09:03,042] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:03] "GET /jason/search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2014-09-18 01:09:03,070] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:03] "GET /jason/search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 01:09:03,070] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:03] "GET /jason/search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 01:09:03,126] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:03] "GET /jason/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 01:09:03,126] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:09:03] "GET /jason/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 01:10:38,495] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:10:38,495] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:10:38,515] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 01:10:40,740] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:10:40,741] {bibserver/web.py:293} DEBUG - jason/search
+[2014-09-18 01:10:40,741] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:10:40,746] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:10:40,746] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - jason
+[2014-09-18 01:10:40,747] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'search']
+[2014-09-18 01:10:40,747] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'jason', u'search']
+[2014-09-18 01:10:40,747] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 2
+[2014-09-18 01:10:40,747] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 2
+[2014-09-18 01:10:40,760] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 01:10:40,760] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?source={%22query%22:{%22match_all%22:{}}} HTTP/1.1" 500 -
+[2014-09-18 01:10:40,831] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 01:10:40,831] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2014-09-18 01:10:40,832] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 01:10:40,832] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2014-09-18 01:10:40,833] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 01:10:40,833] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2014-09-18 01:10:40,871] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 01:10:40,871] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 01:10:40,937] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 01:10:40,937] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2014-09-18 01:10:40,945] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 01:10:40,945] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:10:40] "GET /jason/search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+[2014-09-18 01:11:10,851] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:11:10] "GET /jason/search?__debugger__=yes&cmd=users%5B%27hits%27%5D&frm=49465040&s=iaqJUCdwSgUEEDN7VXix HTTP/1.1" 200 -
+[2014-09-18 01:11:10,851] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:11:10] "GET /jason/search?__debugger__=yes&cmd=users%5B%27hits%27%5D&frm=49465040&s=iaqJUCdwSgUEEDN7VXix HTTP/1.1" 200 -
+[2014-09-18 01:11:26,310] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:11:26] "GET /jason/search?__debugger__=yes&cmd=users._hits&frm=49465040&s=iaqJUCdwSgUEEDN7VXix HTTP/1.1" 200 -
+[2014-09-18 01:11:26,310] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:11:26] "GET /jason/search?__debugger__=yes&cmd=users._hits&frm=49465040&s=iaqJUCdwSgUEEDN7VXix HTTP/1.1" 200 -
+[2014-09-18 01:19:33,353] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:19:33,353] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:19:33,353] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:19:33,353] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:19:33,353] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:19:33,353] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:19:33,353] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:19:33,353] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:19:33,354] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:19:33,354] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:19:33,354] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:19:33,354] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:19:33,395] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:19:33] "GET /search HTTP/1.1" 200 -
+[2014-09-18 01:19:33,395] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:19:33] "GET /search HTTP/1.1" 200 -
+[2014-09-18 01:19:33,788] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:19:33,788] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:19:33,788] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:19:33,788] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:19:33,788] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:19:33,788] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:19:33,795] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:19:33] "GET /query?&callback=jQuery17107468785755161257_1411017573521&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411017573778 HTTP/1.1" 200 -
+[2014-09-18 01:19:33,795] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:19:33] "GET /query?&callback=jQuery17107468785755161257_1411017573521&source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22facets%22%3A%7B%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411017573778 HTTP/1.1" 200 -
+[2014-09-18 01:22:26,706] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:22:26] "GET / HTTP/1.1" 200 -
+[2014-09-18 01:22:26,706] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:22:26] "GET / HTTP/1.1" 200 -
+[2014-09-18 01:23:48,199] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:23:48,199] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:23:48,199] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:23:48,199] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:23:48,200] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:23:48,200] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:23:48,200] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:23:48,200] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:23:48,200] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:23:48,200] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:23:48,200] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:23:48,200] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:23:48,204] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:23:48] "GET /search?q=ontology HTTP/1.1" 200 -
+[2014-09-18 01:23:48,204] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:23:48] "GET /search?q=ontology HTTP/1.1" 200 -
+[2014-09-18 01:23:48,644] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:23:48,644] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:23:48,644] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:23:48,644] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:23:48,644] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:23:48,644] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:23:48,647] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:23:48] "GET /query?&callback=jQuery17107458847796932082_1411017828363&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411017828634 HTTP/1.1" 200 -
+[2014-09-18 01:23:48,647] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:23:48] "GET /query?&callback=jQuery17107458847796932082_1411017828363&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%22type.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22type.exact%22%2C%22order%22%3A%22count%22%7D%7D%2C%22keyword.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22keyword.exact%22%7D%7D%2C%22rating.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22rating.exact%22%7D%7D%2C%22read.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22read.exact%22%7D%7D%2C%22journal.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22journal.name.exact%22%7D%7D%2C%22author.name.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22author.name.exact%22%2C%22order%22%3A%22term%22%2C%22size%22%3A500%7D%7D%2C%22year.exact%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22year.exact%22%2C%22order%22%3A%22reverse_term%22%2C%22size%22%3A100%7D%7D%7D%7D&_=1411017828634 HTTP/1.1" 200 -
+[2014-09-18 01:24:19,271] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:24:19,271] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:24:19,291] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 01:24:31,721] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:24:31,721] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:24:31,722] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:24:31,727] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:24:31,727] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:24:31,727] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:24:31,727] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:24:31,727] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:24:31,727] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:24:31,760] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /search?source={%22query%22:{%22query_string%22:{%22query%22:%22ontology%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:24:31,760] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /search?source={%22query%22:{%22query_string%22:{%22query%22:%22ontology%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:24:31,843] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,843] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,849] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,849] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,856] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,856] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,865] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,865] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,873] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,873] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,880] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,880] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,893] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,893] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,899] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,899] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,908] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,908] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,914] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:31,914] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:31,922] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:31,922] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:31,927] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,927] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,933] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,933] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,942] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,942] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,946] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,946] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:24:31,958] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:24:31,958] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:31] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:24:32,175] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:24:32,175] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:24:32,180] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:24:32,180] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:24:32,186] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:24:32,186] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:24:32,250] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:24:32,250] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:24:32,303] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:24:32,303] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:24:32,303] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:24:32,303] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:24:32,303] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:24:32,303] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:24:32,309] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /query?&callback=jQuery17107693762039170968_1411017872012&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017872293 HTTP/1.1" 200 -
+[2014-09-18 01:24:32,309] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:32] "GET /query?&callback=jQuery17107693762039170968_1411017872012&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017872293 HTTP/1.1" 200 -
+[2014-09-18 01:24:34,260] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:24:34,260] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:24:34,260] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:24:34,260] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:24:34,261] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:24:34,261] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:24:34,261] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:24:34,261] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:24:34,261] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:24:34,261] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:24:34,261] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:24:34,261] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:24:34,264] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /search?source={%22query%22:{%22query_string%22:{%22query%22:%22ontology%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:24:34,264] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /search?source={%22query%22:{%22query_string%22:{%22query%22:%22ontology%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:24:34,336] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,336] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,344] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,344] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,354] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,354] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,361] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,361] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,370] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,370] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,377] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,377] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,384] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,384] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,391] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,391] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,399] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,399] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,406] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:34,406] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:34,411] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:34,411] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:34,417] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,417] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,423] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,423] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,429] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,429] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,435] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,435] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:24:34,440] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,440] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:24:34,660] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:24:34,660] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:24:34,666] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:24:34,666] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:24:34,677] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:24:34,677] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:24:34,736] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:24:34,736] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:24:34,783] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:24:34,783] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:24:34,783] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:24:34,783] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:24:34,784] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:24:34,784] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:24:34,787] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /query?&callback=jQuery17103852924607171294_1411017874488&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017874775 HTTP/1.1" 200 -
+[2014-09-18 01:24:34,787] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:34] "GET /query?&callback=jQuery17103852924607171294_1411017874488&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017874775 HTTP/1.1" 200 -
+[2014-09-18 01:24:49,676] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:24:49,676] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/jason/mypaper/MyPapers/bibserver/search.py', reloading
+[2014-09-18 01:24:49,697] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO -  * Restarting with reloader
+[2014-09-18 01:24:50,857] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:24:50,857] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:24:50,858] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:24:50,863] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:24:50,863] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:24:50,863] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:24:50,863] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:24:50,864] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:24:50,864] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:24:50,898] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:50] "GET /search?source={%22query%22:{%22query_string%22:{%22query%22:%22ontology%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:24:50,898] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:50] "GET /search?source={%22query%22:{%22query_string%22:{%22query%22:%22ontology%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:24:50,985] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:50] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:50,985] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:50] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:50,994] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:50] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:24:50,994] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:50] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,003] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,003] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,010] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,010] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,019] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,019] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,025] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,025] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,030] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,030] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,035] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,035] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,040] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,040] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,047] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:51,047] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:51,054] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:51,054] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:24:51,059] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,059] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,063] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,063] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,072] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,072] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,077] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,077] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:24:51,082] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,082] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:24:51,300] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:24:51,300] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:24:51,312] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:24:51,312] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:24:51,319] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:24:51,319] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:24:51,371] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:24:51,371] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:24:51,422] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:24:51,422] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:24:51,422] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:24:51,422] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:24:51,422] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:24:51,422] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:24:51,427] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /query?&callback=jQuery17104712898352676439_1411017891123&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017891412 HTTP/1.1" 200 -
+[2014-09-18 01:24:51,427] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:24:51] "GET /query?&callback=jQuery17104712898352676439_1411017891123&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017891412 HTTP/1.1" 200 -
+[2014-09-18 01:25:02,206] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:25:02,206] {bibserver/web.py:292} DEBUG - default as search
+[2014-09-18 01:25:02,207] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:25:02,207] {bibserver/web.py:293} DEBUG - search
+[2014-09-18 01:25:02,207] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:25:02,207] {bibserver/web.py:294} DEBUG - {u'password': u'pbkdf2:sha1:1000$dfJ1HuvM$66b1aa03c111656eed9c237e788c735521155590', u'_id': u'jason', u'description': u'', u'_created': u'20140917224136', u'api_key': u'd89e1c7d-1b06-4b82-b1e0-ef1f6f806dbb', u'email': u'jason.zou@gmail.com', u'_last_modified': u'20140917224136'}
+[2014-09-18 01:25:02,207] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:25:02,207] {/home/jason/mypaper/MyPapers/bibserver/search.py:51} DEBUG - search
+[2014-09-18 01:25:02,207] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:25:02,207] {/home/jason/mypaper/MyPapers/bibserver/search.py:52} DEBUG - [u'search']
+[2014-09-18 01:25:02,207] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:25:02,207] {/home/jason/mypaper/MyPapers/bibserver/search.py:53} DEBUG - 1
+[2014-09-18 01:25:02,211] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /search?source={%22query%22:{%22query_string%22:{%22query%22:%22ontology%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:25:02,211] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /search?source={%22query%22:{%22query_string%22:{%22query%22:%22ontology%22,%22default_operator%22:%22OR%22}}} HTTP/1.1" 200 -
+[2014-09-18 01:25:02,294] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,294] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/jquery-1.7.1.min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,300] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,300] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,312] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,312] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,324] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,324] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/css/bibserver.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,330] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,330] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/js/bibserver.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,336] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,336] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/linkify/1.0/jquery.linkify-1.0-min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,342] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,342] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,347] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,347] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,352] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,352] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/d3/d3.min.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,360] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:25:02,360] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/d3/d3.geom.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:25:02,366] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:25:02,366] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/vendor/d3/d3.layout.min.js?2.1.3 HTTP/1.1" 304 -
+[2014-09-18 01:25:02,370] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,370] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/jquery.facetview.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,375] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,375] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/facetview/css/facetview.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,379] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,379] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/jtedit/vendor/jquery.autoResize.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,383] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,383] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/jtedit/jtedit.css HTTP/1.1" 304 -
+[2014-09-18 01:25:02,390] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,390] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/jtedit/jquery.jtedit.js HTTP/1.1" 304 -
+[2014-09-18 01:25:02,640] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:25:02,640] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/openservice.png HTTP/1.1" 304 -
+[2014-09-18 01:25:02,649] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:25:02,649] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/opendata.png HTTP/1.1" 304 -
+[2014-09-18 01:25:02,661] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:25:02,661] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 304 -
+[2014-09-18 01:25:02,712] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:25:02,712] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /static/vendor/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 304 -
+[2014-09-18 01:25:02,764] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:25:02,764] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:25:02,764] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:25:02,764] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:25:02,764] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:25:02,764] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:25:02,767] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /query?&callback=jQuery171006901566152855576_1411017902468&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017902754 HTTP/1.1" 200 -
+[2014-09-18 01:25:02,767] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:25:02] "GET /query?&callback=jQuery171006901566152855576_1411017902468&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017902754 HTTP/1.1" 200 -
+[2014-09-18 01:27:08,947] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:27:08,947] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:27:08,947] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:27:08,947] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:27:08,947] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:27:08,947] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:27:08,963] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:27:08] "GET /query?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017902754 HTTP/1.1" 200 -
+[2014-09-18 01:27:08,963] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:27:08] "GET /query?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017902754 HTTP/1.1" 200 -
+[2014-09-18 01:33:22,691] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:33:22,691] {bibserver/web.py:75} DEBUG - Record
+[2014-09-18 01:33:22,691] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:33:22,691] {bibserver/web.py:76} DEBUG - R
+[2014-09-18 01:33:22,692] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:33:22,692] {bibserver/web.py:77} DEBUG - ecord
+[2014-09-18 01:33:22,698] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:33:22] "GET /query?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017902754 HTTP/1.1" 200 -
+[2014-09-18 01:33:22,698] {/home/jason/mypaper/lib/python2.7/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [18/Sep/2014 01:33:22] "GET /query?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22ontology%22%2C%22default_operator%22%3A%22OR%22%7D%7D%2C%22facets%22%3A%7B%7D%7D&_=1411017902754 HTTP/1.1" 200 -

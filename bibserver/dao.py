@@ -26,6 +26,7 @@ def make_id(data):
     new_data = {}
     for k,v in data.items():
         if k in ('_last_modified', '_created'): continue
+        #if k.startswith('_'): continue
         new_data[k] = v
     buf = json.dumps(new_data, sort_keys=True)
     new_id = hashlib.md5(buf).hexdigest()
@@ -168,7 +169,8 @@ class DomainObject(UserDict.IterableUserDict):
             
             index_result = conn.index(data, db, cls.__type__, urllib.quote_plus(id_), bulk=True)
         # refresh required after bulk index
-        conn.refresh()
+        #conn.refresh()
+        conn.force_bulk()
     
     @classmethod
     def delete_by_query(cls, query):
@@ -239,7 +241,7 @@ class Note(DomainObject):
             return None
         conn, db = get_conn()
         res = Note.query(terms={"about":id_})
-        return [i['_source'] for i in res['hits']['hits']]
+        return [i['_source'] for i in res._hits]
 
 
 class Collection(DomainObject):
@@ -247,17 +249,17 @@ class Collection(DomainObject):
 
     @property
     def records(self):
-        size = Record.query(terms={'owner':self['owner'],'collection':self['collection']})['hits']['total']
+        size = Record.query(terms={'owner':self['owner'],'collection':self['collection']}).total
         if size != 0:
-            res = [Record.get(i['_source']['_id']) for i in Record.query(terms={'owner':self['owner'],'collection':self['collection']},size=size)['hits']['hits']]
+            res = [Record.get(i['_source']['_id']) for i in Record.query(terms={'owner':self['owner'],'collection':self['collection']},size=size)._hits]
         else: res = []
         return res
 
     @classmethod
     def get_by_owner_coll(cls,owner,coll):
         res = cls.query(terms={'owner':owner,'collection':coll})
-        if res['hits']['total'] == 1:
-            return cls(**res['hits']['hits'][0]['_source'])
+        if res.total == 1:
+            return cls(**res._hits[0]['_source'])
         else:
             return None
             
@@ -274,7 +276,7 @@ class Collection(DomainObject):
     
     def __len__(self):
         res = Record.query(terms={'owner':self['owner'],'collection':self['collection']})
-        return res['hits']['total']
+        return res.total
 
     
 class Account(DomainObject, UserMixin):
@@ -295,7 +297,7 @@ class Account(DomainObject, UserMixin):
         colls = Collection.query(terms={
             'owner': [self.id]
             })
-        colls = [ Collection(**item['_source']) for item in colls['hits']['hits'] ]
+        colls = [ Collection(**item['_source']) for item in colls._hits ]
         return colls
         
     @property
@@ -303,7 +305,7 @@ class Account(DomainObject, UserMixin):
         res = Note.query(terms={
             'owner': [self.id]
         })
-        allnotes = [ Note(**item['_source']) for item in res['hits']['hits'] ]
+        allnotes = [ Note(**item['_source']) for item in res._hits ]
         return allnotes
         
     def delete(self):
