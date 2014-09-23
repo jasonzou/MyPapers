@@ -1,57 +1,72 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-
-"""cli.py: import bibtex into bibjson and load into bibserver"""
-"""PyBtex project: person => PersonalName 
-"""
-import os
-import sys
-import optparse
-import inspect
+# vim: fileencoding=utf-8
+# Copyright (c) 2006, 2007, 2008, 2009, 2010, 2011, 2012  Andrey Golovizin
+#
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be
+# included in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+# IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+# CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+# TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+# SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+# from pybtex! project
 
 import re
+def split_name_list(string):
+    """
+    Split a list of names, separated by ' and '.
 
-# does setup of cfg
-from bibserver import dao
+    >>> split_name_list('Johnson and Peterson')
+    ['Johnson', 'Peterson']
+    >>> split_name_list('Armand and Peterson')
+    ['Armand', 'Peterson']
+    >>> split_name_list('Armand and anderssen')
+    ['Armand', 'anderssen']
+    >>> split_name_list('What a Strange{ }and Bizzare Name! and Peterson')
+    ['What a Strange{ }and Bizzare Name!', 'Peterson']
+    >>> split_name_list('What a Strange and{ }Bizzare Name! and Peterson')
+    ['What a Strange and{ }Bizzare Name!', 'Peterson']
+    """
+    return split_tex_string(string, ' and ')
 
-def rebuild_db():
-    '''Rebuild the db'''
-    conn, db = dao.get_conn()
-    conn.delete_index(db)
-    conn.create_index(db)
 
-def fixtures():
-    '''fixtures'''
-    import test.base
-    for dict_ in test.base.fixtures['records']:
-        dao.Record.upsert(dict_)
-        
-def split_string(string, sep=None, strip=True, filter_empty=False):
+def split_tex_string(string, sep=None, strip=True, filter_empty=False):
     """Split a string using the given separator (regexp).
 
     Everything at brace level > 0 is ignored.
     Separators at the edges of the string are ignored.
 
-    >>> split_string('')
+    >>> split_tex_string('')
     []
-    >>> split_string('     ')
+    >>> split_tex_string('     ')
     []
-    >>> split_string('   ', ' ', strip=False, filter_empty=False)
+    >>> split_tex_string('   ', ' ', strip=False, filter_empty=False)
     [' ', ' ']
-    >>> split_string('.a.b.c.', r'\.')
+    >>> split_tex_string('.a.b.c.', r'\.')
     ['.a', 'b', 'c.']
-    >>> split_string('.a.b.c.{d.}.', r'\.')
-    ['.a', 'b', 'c', '{d.}.']     
-    >>> split_string('Matsui      Fuuka')     
-    ['Matsui', 'Fuuka']     
-    >>> split_string('{Matsui      Fuuka}')     
-    ['{Matsui      Fuuka}']     
-    >>> split_string('a')     
+    >>> split_tex_string('.a.b.c.{d.}.', r'\.')
+    ['.a', 'b', 'c', '{d.}.']
+    >>> split_tex_string('Matsui      Fuuka')
+    ['Matsui', 'Fuuka']
+    >>> split_tex_string('{Matsui      Fuuka}')
+    ['{Matsui      Fuuka}']
+    >>> split_tex_string('a')
     ['a']
-    >>> split_string('on a')
+    >>> split_tex_string('on a')
     ['on', 'a']
     """
+
     if sep is None:
         sep = '[\s~]+'
         filter_empty = True
@@ -80,17 +95,11 @@ def split_string(string, sep=None, strip=True, filter_empty=False):
     if filter_empty:
         result = [part for part in result if part]
     return result
-        
-"""
-	$authors = "Mark N. Grimshaw and 
-    Bush III, G.W. & M. C. Hammer Jr. 
-    and von Frankenstein, Ferdinand Cecil, P.H. 
-    & Charles Louis Xavier Joseph de la Vallee Poussin and et. al";
-"""
-class PersonalName(object):
+
+class Person(object):
     """Represents a person (usually human).
 
-    >>> p = PersonalName('Avinash K. Dixit')
+    >>> p = Person('Avinash K. Dixit')
     >>> print p.first()
     ['Avinash']
     >>> print p.middle()
@@ -103,9 +112,9 @@ class PersonalName(object):
     []
     >>> print unicode(p)
     Dixit, Avinash K.
-    >>> p == PersonalName(unicode(p))
+    >>> p == Person(unicode(p))
     True
-    >>> p = PersonalName('Dixit, Jr, Avinash K. ')
+    >>> p = Person('Dixit, Jr, Avinash K. ')
     >>> print p.first()
     ['Avinash']
     >>> print p.middle()
@@ -118,36 +127,34 @@ class PersonalName(object):
     ['Jr']
     >>> print unicode(p)
     Dixit, Jr, Avinash K.
-    >>> p == PersonalName(unicode(p))
+    >>> p == Person(unicode(p))
     True
 
-    >>> p = PersonalName('abc')
+    >>> p = Person('abc')
     >>> print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
     [] [] [] ['abc'] []
-    >>> p = PersonalName('Viktorov, Michail~Markovitch')
+    >>> p = Person('Viktorov, Michail~Markovitch')
     >>> print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
     ['Michail'] ['Markovitch'] [] ['Viktorov'] []
     """
+    valid_roles = ['author', 'editor'] 
+    style1_re = re.compile('^(.+),\s*(.+)$')
+    style2_re = re.compile('^(.+),\s*(.+),\s*(.+)$')
+
     def __init__(self, string="", first="", middle="", prelast="", last="", lineage=""):
         self._first = []
         self._middle = []
         self._prelast = []
         self._last = []
         self._lineage = []
-        
-        # strip trailing spaces
         string = string.strip()
-
-        # get rid of double spaces
-        string = re.sub("\s{2,}", ' ', string)
-        
         if string:
             self.parse_string(string)
-        self._first.extend(split_string(first))
-        self._middle.extend(split_string(middle))
-        self._prelast.extend(split_string(prelast))
-        self._last.extend(split_string(last))
-        self._lineage.extend(split_string(lineage))
+        self._first.extend(split_tex_string(first))
+        self._middle.extend(split_tex_string(middle))
+        self._prelast.extend(split_tex_string(prelast))
+        self._last.extend(split_tex_string(last))
+        self._lineage.extend(split_tex_string(lineage))
 
     def parse_string(self, name):
         """Extract various parts of the name from a string.
@@ -166,6 +173,9 @@ class PersonalName(object):
 
         def process_von_last(parts):
             von, last = rsplit_at(parts, lambda part: part.islower())
+            print '----------------------'
+            print von, last
+            print '++++++++++++++++++++++'
             if von and not last:
                 last.append(von.pop())
             self._prelast.extend(von)
@@ -191,42 +201,52 @@ class PersonalName(object):
             pos = len(lst) - rpos
             return lst[:pos], lst[pos:]
 
-        parts = split_string(name, ',')
+        parts = split_tex_string(name, ',')
         if len(parts) == 3: # von Last Roman, Jr, First
-            parts1 = split_string(parts[0])
+            parts1 = split_tex_string(parts[0])
             self._roman(parts1[-1])
             if self.hasRoman:
                 parts1.pop()
+            
             tmp = " ".join(parts1)
-            process_von_last(split_string(tmp))
-            self._lineage.extend(split_string(parts[1]))
-            process_first_middle(split_string(parts[2]))
+            
+            process_von_last(split_tex_string(tmp))
+            self._lineage.extend(split_tex_string(parts[1]))
+            process_first_middle(split_tex_string(parts[2]))
         elif len(parts) == 2: # von Last Jr/Roman, First
-            parts1 = split_string(parts[0])
+            parts1 = split_tex_string(parts[0])
             self._apellation(parts1[-1])
             if self.apellation:
                 parts1.pop()
+            
             self._roman(parts1[-1])
             if self.hasRoman:
                 parts1.pop()
+                
             self._apellation(parts1[-1])
             if self.apellation:
                 parts1.pop()
+            
             tmp = " ".join(parts1)
-            #process_von_last(split_string(parts[0]))
-            process_von_last(split_string(tmp))
-            process_first_middle(split_string(parts[1]))
+        
+            #process_von_last(split_tex_string(parts[0]))
+            process_von_last(split_tex_string(tmp))
+            process_first_middle(split_tex_string(parts[1]))
         elif len(parts) == 1: # First von Last Jr/Roman
-            parts = split_string(name)
+            parts = split_tex_string(name)
+            
             self._apellation(parts[-1])
             if self.apellation:
                 parts.pop()
+            
             self._roman(parts[-1])
             if self.hasRoman:
                 parts.pop()
+                
             self._apellation(parts[-1])
             if self.apellation:
                 parts.pop()
+            
             first_middle, von_last = split_at(parts, lambda part: part.islower())
             if not von_last and first_middle:
                 last = first_middle.pop()
@@ -252,7 +272,7 @@ class PersonalName(object):
         else:
             self.apellation = ""
         if hasApellation:
-            self._lineage.extend(split_string(self.apellation))
+            self._lineage.extend(split_tex_string(self.apellation))
             
     def _roman(self, item):
         roman = ['I','II','III','IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
@@ -261,7 +281,7 @@ class PersonalName(object):
             self.hasRoman = True
             self.roman = item
         if self.hasRoman:
-            self._lineage.extend(split_string(self.roman))
+            self._lineage.extend(split_tex_string(self.roman))
 
     def __eq__(self, other):
         if not isinstance(other, Person):
@@ -309,158 +329,57 @@ class PersonalName(object):
         return self.get_part('last', abbr)
     def lineage(self, abbr=False):
         return self.get_part('lineage', abbr)
-    
-    def _initials(self):
-        hasInitial = False
-        rr = re.compile('\.')
-        for value in self._author:
-            isMatch = re.match(rr, value.strip())
-            if (isMatch):
-                pass
-            
-        pass
-    
-    def __getSurname(authorStr):
-        pass
-    
-        
-    def __str__(self):
-        string = "First: %s; Middle: %s; von: %s; Last: %s; Jr:%s" % (self.first(), 
-                    self.middle(), self.prelast(), 
-                    self.last(), self.lineage())
-        return string
-    
-    def __repr__(self):
-        return { "firstname": self.first(),
-            "middlename": self.middle(),
-            "von": self.prelast(),
-            "lastname": self.last(),
-            "apellation": self.lineage() }
-        
-        
-def parseNames(names):
-    inputNames = names.strip()
-    
-    #annonymous
-
-    delimit = "##!!##"
-    rr = re.compile("\s+(and|&)\s+", re.IGNORECASE)
-    authorsList = re.sub(rr, delimit, inputNames).split(delimit)
-    
-    for value in authorsList:
-        if value.lower().startswith('et. al'):
-            etAl = true
-            print("etal is true")
-    
-    authors = list()
-    
-    for value in authorsList:
-        # parse each name into tempAuthor
-        tempAuthor = PersonalName(value)
-        authorInfo = dict()
-        
-        #print(authorStr)
-        authorInfo["raw"] = value
-        authorInfo["firstname"] = " ".join(tempAuthor.first())
-        authorInfo["middlename"] = " ".join(tempAuthor.middle())
-        authorInfo["von"] = " ".join(tempAuthor.prelast())
-        authorInfo["lastname"] = " ".join(tempAuthor.last())
-        authorInfo["apellation"] = " ".join(tempAuthor.lineage())
-        authors.append(authorInfo)
-        
-    return authors
-    #for key in authorArray.keys():
-    #    print authorArray[key]
-    #print(authorsList)
-    
-    
-
-from bibtexparser.customization import *
-def myAuthor(record):
-    if "author" in record:
-        if record["author"]:
-            record["authorList"] = parseNames(record["author"])
-        else:
-            del record["author"]
-    return record
-    
-def customizations(record):
-    record = type(record)
-    record = link(record)
-    record = doi(record)
-    record = myAuthor(record)
-
-    return record
-
-def convert(inpath):
-    '''
-    Convert from bibtex to bibjson.
-    One argument expected: path to bibtex file.
-    '''
-    import bibtexparser
-    from bibtexparser.bparser import BibTexParser
-    import json
-
-    parser = BibTexParser()
-    with open(inpath) as bibtex_file:
-        parser.customization = customizations
-        bib_database = bibtexparser.load(bibtex_file, parser=parser)
-    print json.dumps(bib_database.entries, indent=2, sort_keys=True)
-
-def bulk_upload(colls_list):
-    '''
-    Take a collections list in a JSON file and use the bulk_upload importer.
-    colls_list described in importer.py
-    '''
-    import bibserver.importer
-    return bibserver.importer.bulk_upload(colls_list)
-    
-"""
-==================================================
-Misc stuff for setting up a command line interface
----------------------------------------------------
-"""
-
-def _module_functions(functions):
-    '''module functions'''
-    local_functions = dict(functions)
-    for k, v in local_functions.items():
-        if not inspect.isfunction(v) or k.startswith('_'):
-            del local_functions[k]
-    return local_functions
-
-def _main(functions_or_object):
-    '''main '''
-    isobject = inspect.isclass(functions_or_object)
-    if isobject:
-        _methods = _object_methods(functions_or_object)
-    else:
-        _methods = _module_functions(functions_or_object)
-    usage = '''%prog {action}
-Actions:
-    '''
-    usage += '\n    '.join(
-        ['%s: %s' % (name, m.__doc__.split('\n')[0]
-            if m.__doc__ else '') for (name, m) in sorted(_methods.items())])
-    parser = optparse.OptionParser(usage)
-    # Optional: for a config file
-    # parser.add_option('-c', '--config', dest='config',
-    #         help='Config file to use.')
-    options, args = parser.parse_args()
-
-    if not args or not args[0] in _methods:
-        parser.print_help()
-        sys.exit(1)
-
-    method = args[0]
-    if isobject:
-        getattr(functions_or_object(), method)(*args[1:])
-    else:
-        _methods[method](*args[1:])
-
-__all__ = ['_main']
 
 if __name__ == '__main__':
-    _main(locals())
+    p = Person('abc')
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+    
+    p = Person('Viktorov, Michail~Markovitch')
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+    
+    p = Person('fjdkladf {fjdlsjlfd zou}')
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+    
+    p = Person('Marcial L. Zeng')
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+    
+    p = Person("Mark N. Grimshaw")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+    
+    
+    p = Person("Bush III, G.W.")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+
+    p = Person("Bush III, Jr., G.W.")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+
+    
+    p = Person("Bush III, G. W.")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+
+    p = Person("G.W. Bush III")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
 
 
+    p = Person("Hammer, Jr., Zou ")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+ 
+    p = Person("M.C. Hammer III Jr. ")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+    
+    p = Person("M. C. Hammer Jr. III")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+
+    print split_tex_string("Charles Louis Xavier Joseph De la Vallee Poussin")
+    print split_tex_string("Charles Louis Xavier Joseph {de la Vallee} Poussin")
+    print split_tex_string("Charles Louis Xavier Joseph {{de la} Vallee} Poussin")
+    print split_tex_string("Charles Louis Xavier Joseph a. b. c. {{de  {343} la} Vallee} Poussin")
+     
+    p = Person("von Frankenstein, Ferdinand Cecil, P.H.")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+     
+
+    p = Person("Charles Louis Xavier Joseph de la Vallee Poussin")
+    print p.first(), p.middle(), p.prelast(), p.last(), p.lineage()
+    
+    
