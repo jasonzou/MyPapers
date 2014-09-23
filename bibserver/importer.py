@@ -17,7 +17,7 @@ class Importer(object):
         self.owner = owner
         self.requesturl = requesturl
 
-    def upload(self, fileobj, collection=None):
+    def upload(self, jsonin, collection=None):
         '''Import a bibjson collection into the database.
        
         :param fileobj: a fileobj pointing to file from which to import
@@ -27,9 +27,10 @@ class Importer(object):
 
         :return: same as `index` method.
         '''
-        jsonin = json.load(fileobj)
+        #jsonin = json.load(fileobj)
         metadata = jsonin.get('metadata',False)
-        record_dicts = jsonin.get('records', jsonin)
+        record_dicts = jsonin.get('records')
+        print record_dicts
 
         # if metadata provided from file, roll it into the collection object
         if metadata:
@@ -43,6 +44,7 @@ class Importer(object):
         :return: (collection, records) tuple of collection and associated
         record objects.
         '''
+        '''
         col_label_slug = util.slugify(collection_dict['label'])
         collection = bibserver.dao.Collection.get_by_owner_coll(self.owner.id, col_label_slug)
         if not collection:
@@ -53,15 +55,18 @@ class Importer(object):
             collection['owner'] = self.owner.id
 
         collection.save()
-
+        '''
         for rec in record_dicts:
             if not type(rec) is dict: continue
-            rec['owner'] = collection['owner']
+            #rec['owner'] = collection['owner']
+            '''
             if 'collection' in rec:
-                if collection['collection'] != rec['collection']:
-                    rec['collection'] = collection['collection']
+                #if collection['collection'] != rec['collection']:
+                #    rec['collection'] = collection['collection']
+                pass
             else:
-                rec['collection'] = collection['collection']
+                #rec['collection'] = collection['collection']
+            '''
             if not self.requesturl and 'SITE_URL' in config:
                 self.requesturl = str(config['SITE_URL'])
             if self.requesturl:
@@ -69,13 +74,15 @@ class Importer(object):
                     self.requesturl += '/'
                 if '_id' not in rec:
                     rec['_id'] = bibserver.dao.make_id(rec)
-                rec['url'] = self.requesturl + collection['owner'] + '/' + collection['collection'] + '/'
+                #rec['url'] = self.requesturl + collection['owner'] + '/' + collection['collection'] + '/'
+                '''
                 if 'id' in rec:
                     rec['url'] += rec['id']
                 elif '_id' in rec:
                     rec['url'] += rec['_id']
+                '''
         bibserver.dao.Record.bulk_upsert(record_dicts)
-        return collection, record_dicts
+        return record_dicts
 
 def findformat(filename):
     if filename.endswith(".json"): return "json"

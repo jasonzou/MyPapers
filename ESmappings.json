@@ -1,0 +1,199 @@
+{
+    "bibserver": {
+        "mappings": {
+            "account": {
+                "properties": {
+                    "_created": {
+                        "type": "string"
+                    },
+                    "_last_modified": {
+                        "type": "string"
+                    },
+                    "api_key": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "password": {
+                        "type": "string"
+                    }
+                }
+            },
+            "record": {
+                "properties": {
+                    "_created": {
+                        "type": "string"
+                    },
+                    "_last_modified": {
+                        "type": "string"
+                    },
+                    "abstract": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "archiveprefix": {
+                        "type": "string"
+                    },
+                    "author": {
+                        "type": "string"
+                    },
+                    "authorList": {
+                        "properties": {
+                            "firstname": {
+                                "type": "string"
+                            },
+                            "lastname": {
+                                "type": "string"
+                            },
+                            "middlename": {
+                                "type": "string"
+                            },
+                            "raw": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "bibsource": {
+                        "type": "string"
+                    },
+                    "booktitle": {
+                        "type": "string"
+                    },
+                    "chapter": {
+                        "type": "string"
+                    },
+                    "citeulike-article-id": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-0": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-1": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-2": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-3": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-4": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-5": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-6": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-7": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-8": {
+                        "type": "string"
+                    },
+                    "citeulike-linkout-9": {
+                        "type": "string"
+                    },
+                    "collection": {
+                        "type": "string"
+                    },
+                    "comment": {
+                        "type": "string"
+                    },
+                    "day": {
+                        "type": "string"
+                    },
+                    "doi": {
+                        "type": "string"
+                    },
+                    "edition": {
+                        "type": "string"
+                    },
+                    "editor": {
+                        "type": "string"
+                    },
+                    "eprint": {
+                        "type": "string"
+                    },
+                    "howpublished": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "institution": {
+                        "type": "string"
+                    },
+                    "isbn": {
+                        "type": "string"
+                    },
+                    "issn": {
+                        "type": "string"
+                    },
+                    "journal": {
+                        "type": "string"
+                    },
+                    "keyword": {
+                        "type": "string"
+                    },
+                    "link": {
+                        "properties": {
+                            "anchor": {
+                                "type": "string"
+                            },
+                            "url": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "location": {
+                        "type": "string"
+                    },
+                    "month": {
+                        "type": "string"
+                    },
+                    "number": {
+                        "type": "string"
+                    },
+                    "organization": {
+                        "type": "string"
+                    },
+                    "pages": {
+                        "type": "string"
+                    },
+                    "posted-at": {
+                        "type": "string"
+                    },
+                    "priority": {
+                        "type": "string"
+                    },
+                    "publisher": {
+                        "type": "string"
+                    },
+                    "school": {
+                        "type": "string"
+                    },
+                    "series": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "volume": {
+                        "type": "string"
+                    },
+                    "year": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}

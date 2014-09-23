@@ -14,6 +14,7 @@ import re
 
 # does setup of cfg
 from bibserver import dao
+from bibserver.importer import *
 
 def rebuild_db():
     '''Rebuild the db'''
@@ -309,21 +310,7 @@ class PersonalName(object):
         return self.get_part('last', abbr)
     def lineage(self, abbr=False):
         return self.get_part('lineage', abbr)
-    
-    def _initials(self):
-        hasInitial = False
-        rr = re.compile('\.')
-        for value in self._author:
-            isMatch = re.match(rr, value.strip())
-            if (isMatch):
-                pass
-            
-        pass
-    
-    def __getSurname(authorStr):
-        pass
-    
-        
+  
     def __str__(self):
         string = "First: %s; Middle: %s; von: %s; Last: %s; Jr:%s" % (self.first(), 
                     self.middle(), self.prelast(), 
@@ -389,6 +376,7 @@ def customizations(record):
     record = link(record)
     record = doi(record)
     record = myAuthor(record)
+    record = keyword(record)
 
     return record
 
@@ -405,15 +393,37 @@ def convert(inpath):
     with open(inpath) as bibtex_file:
         parser.customization = customizations
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
-    print json.dumps(bib_database.entries, indent=2, sort_keys=True)
+    myRecords = list()
+    num = 1
+    records = dict()
+    for record in bib_database.entries:
+        record1 = dict()
+        record1 = record
+        record1["_id"] = num
+        record1["collection"] = "test01"
+        num = num + 1
+        
+        myRecords.append(record1)
+        #temp = json.dumps(record, indent=2, sort_keys=True)
+        #t
+        #myRecords
+    records["records"] = myRecords
+    return records
 
-def bulk_upload(colls_list):
+def convertPrint(inpath):
+    records = convert(inpath)
+    
+    print json.dumps(records, indent=2, sort_keys=True)
+
+def bulk_upload(inpath):
     '''
     Take a collections list in a JSON file and use the bulk_upload importer.
     colls_list described in importer.py
     '''
-    import bibserver.importer
-    return bibserver.importer.bulk_upload(colls_list)
+    jsonin = convert(inpath)
+    
+    importer = Importer("jason")
+    return importer.upload(jsonin, "test01")
     
 """
 ==================================================

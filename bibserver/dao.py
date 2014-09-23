@@ -158,7 +158,7 @@ class DomainObject(UserDict.IterableUserDict):
         for data in dataset:
             if not type(data) is dict: continue
             if '_id' in data:
-                id_ = data['_id'].strip()
+                id_ = str(data['_id']).strip()
             else:
                 id_ = make_id(data)
                 data['_id'] = id_
